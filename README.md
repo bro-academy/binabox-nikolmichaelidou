@@ -1,5 +1,5 @@
 # Binabox - homework project
 
-Student: 
+Student: Nikoletta Michailidou
 
-Mentor: 
+Mentor: Elizaveta Pak
