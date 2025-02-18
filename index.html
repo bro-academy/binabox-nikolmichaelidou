@@ -27,74 +27,87 @@
     </header>
 
     <main>
-      <section>
-        <!--Banner-->
-        <h1>WITH <span>BINABOX</span> EXPLORE NFT COLLECTION!</h1>
-        <p>
-          We are the best way to check for the rarity of your NFT
-          <span>collection</span>
-        </p>
-        <p>Total IT Team</p>
-        <p>2200+</p>
-        <p>Profiles Whitelisted</p>
-        <p>1000+</p>
-        <div class="button-group">
-          <a href="...">Connect Wallet</a>
-          <a href="...">Whitelist Now</a>
+      <!-- Banner Section -->
+      <section class="hero">
+        <h1 class="hero__title">WITH <span class="hero__title-highlight">BINABOX</span> EXPLORE NFT COLLECTION!</h1>
+        <p class="hero__description">We are the best way to check for the rarity of your NFT <span class="hero__description-highlight">collection</span></p>
+        <div class="hero__stats">
+          <div class="hero__stat-item">
+            <p class="hero__stat-number">2200+</p>
+            <p class="hero__stat-label">Total IT Team</p>
+          </div>
+          <div class="hero__stat-item">
+            <p class="hero__stat-number">1000+</p>
+            <p class="hero__stat-label">Profiles Whitelisted</p>
+          </div>
+        </div>
+        <div class="hero__cta">
+          <a href="#" class="button button--primary">Connect Wallet</a>
+          <a href="#" class="button button--secondary">Whitelist Now</a>
         </div>
       </section>
 
-      <section>
-        <!--NFT BLOCK-->
-        <h2>Catalog</h2>
-        <!--Container-->
-        <a href="#" target="_blank">SEE ALL</a> <button>⬅️</button>
-        <button>➡️</button>
-        <div>
-          <ul>
-            <li>
-              <a href="#" target="_blank">
-                <article>
-                  <img src="#" alt="NFT Item 1" /><span>NEW</span>
-                  <p>$199</p>
-                  <h3>NAME PRODUCT</h3>
+      <!-- NFT Catalog Section -->
+      <section class="catalog">
+        <div class="catalog__header">
+          <h2 class="catalog__title">Catalog</h2>
+          <div class="catalog__controls">
+            <a href="#" class="catalog__view-all">SEE ALL</a>
+            <div class="catalog__navigation">
+              <button class="catalog__nav-btn catalog__nav-btn--prev">⬅️</button>
+              <button class="catalog__nav-btn catalog__nav-btn--next">➡️</button>
+            </div>
+          </div>
+        </div>
+        <div class="catalog__grid">
+          <ul class="nft-list">
+            <li class="nft-card">
+              <a href="#" class="nft-card__link">
+                <article class="nft-card__content">
+                  <img class="nft-card__image" src="#" alt="NFT Item 1">
+                  <span class="nft-card__badge nft-card__badge--new">NEW</span>
+                  <p class="nft-card__price">$199</p>
+                  <h3 class="nft-card__title">NAME PRODUCT</h3>
                 </article>
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank">
-                <article>
-                  <img src="#" alt="NFT Item 2" />
-                  <span>NEW</span>
-                  <p>$199</p>
-                  <h3>NAME PRODUCT</h3>
+            <li class="nft-card">
+              <a href="#" class="nft-card__link">
+                <article class="nft-card__content">
+                  <img class="nft-card__image" src="#" alt="NFT Item 2">
+                  <span class="nft-card__badge nft-card__badge--new">NEW</span>
+                  <p class="nft-card__price">$199</p>
+                  <h3 class="nft-card__title">NAME PRODUCT</h3>
                 </article>
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank">
-                <article>
-                  <img src="#" alt="NFT Item 3" /><span>SOLD OUT</span>
-                  <p>$199</p>
-                  <h3>NAME PRODUCT</h3>
+            <li class="nft-card">
+              <a href="#" class="nft-card__link">
+                <article class="nft-card__content">
+                  <img class="nft-card__image" src="#" alt="NFT Item 3">
+                  <span class="nft-card__badge nft-card__badge--sold-out">SOLD OUT</span>
+                  <p class="nft-card__price">$199</p>
+                  <h3 class="nft-card__title">NAME PRODUCT</h3>
                 </article>
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank">
-                <article>
-                  <img src="#" alt="NFT Item 4" /><span>NEW</span>
-                  <p>$199</p>
-                  <h3>NAME PRODUCT</h3>
+            <li class="nft-card">
+              <a href="#" class="nft-card__link">
+                <article class="nft-card__content">
+                  <img class="nft-card__image" src="#" alt="NFT Item 4">
+                  <span class="nft-card__badge nft-card__badge--new">NEW</span>
+                  <p class="nft-card__price">$199</p>
+                  <h3 class="nft-card__title">NAME PRODUCT</h3>
                 </article>
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank">
-                <article>
-                  <img src="#" alt="NFT Item 5" /><span>NEW</span>
-                  <p>$199</p>
-                  <h3>NAME PRODUCT</h3>
+            <li class="nft-card">
+              <a href="#" class="nft-card__link">
+                <article class="nft-card__content">
+                  <img class="nft-card__image" src="#" alt="NFT Item 5">
+                  <span class="nft-card__badge nft-card__badge--new">NEW</span>
+                  <p class="nft-card__price">$199</p>
+                  <h3 class="nft-card__title">NAME PRODUCT</h3>
                 </article>
               </a>
             </li>
@@ -312,74 +325,55 @@
         </article>
       </section>
 
-      <section>
-        <!--FAQs BLOCK---->
-        <h2>FAQs</h2>
-        <details>
-          <summary>What are NFTs?</summary>
-          <p>
-            Urna vitae erat et lacus, consectetur ac nulla vestibulum
-            lobortis...
-          </p>
-        </details>
-        <details>
-          <summary>How do I get NFTs?</summary>
-          <p>You can buy NFTs on various marketplaces such as OpenSea...</p>
-        </details>
-        <details>
-          <summary>How can we buy your NFTs?</summary>
-          <p>
-            Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis.
-            Nulla dapibus urna volutpat venenatis, risus faucibus.
-          </p>
-        </details>
-        <details>
-          <summary>Who are the team behind the project?</summary>
-          <p>
-            Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis.
-            Nulla dapibus urna volutpat venenatis, risus faucibus.
-          </p>
-        </details>
+      <section class="faq">
+        <h2 class="faq__title">FAQs</h2>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary class="faq__question">What are NFTs?</summary>
+            <p class="faq__answer">Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis...</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">How do I get NFTs?</summary>
+            <p class="faq__answer">You can buy NFTs on various marketplaces such as OpenSea...</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">How can we buy your NFTs?</summary>
+            <p class="faq__answer">Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Who are the team behind the project?</summary>
+            <p class="faq__answer">Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.</p>
+          </details>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <div>
-        <!--LOGO AND TEXT CONTAINER-->
-        <a href="index.html">
-          <img src="..." alt="Binabox Logo" />
+    <footer class="footer">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <img src="..." alt="Binabox Logo">
         </a>
-        <p>We are the best way to check the rarity of NFT collection.</p>
+        <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
       </div>
-      <nav>
-        <div>
-          <h2>Subscribe</h2>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Catalog</a></li>
-            <li><a href="#">Contact Us</a></li>
+      
+      <nav class="footer__navigation">
+        <div class="footer__menu">
+          <h2 class="footer__menu-title">Subscribe</h2>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Home</a></li>
+            <!-- Repeat for other menu items -->
           </ul>
         </div>
-        <div>
-          <h2>Company</h2>
-          <ul>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Whitepaper</a></li>
-            <li><a href="#">Help Center</a></li>
-          </ul>
-        </div>
+        <!-- Repeat for other menu sections -->
       </nav>
-      <div>
-        <p>BINABOX 2022 - ALL rights reserved</p>
-        <div class="social-icons">
-          <a href="#"><img src="#" alt="Twitter" /></a>
-          <a href="#"><img src="#" alt="Facebook" /></a>
-          <a href="#"><img src="#" alt="Telegram" /></a>
-          <a href="#"><img src="#" alt="YouTube" /></a>
-          <a href="#"><img src="#" alt="TikTok" /></a>
-          <a href="#"><img src="#" alt="Discord" /></a>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <img class="footer__social-icon" src="#" alt="Twitter">
+          </a>
+          <!-- Repeat for other social icons -->
         </div>
       </div>
     </footer>
