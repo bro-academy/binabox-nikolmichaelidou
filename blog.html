@@ -84,51 +84,52 @@
         </nav>
       </aside>
 
-      <article>
-        <img src="basilisk-image.jpg" alt="The Basilisk" />
-        <p>Photo caption.</p>
-        <h1>The Basilisks NFT</h1>
-        <span>Gaming</span>
-        <ul>
-          <li>
-            <p>
-              <strong>Tony Nguyen</strong
-              ><time datetime="2022-06-20">20 Jun 2022</time>
+      <article class="blog-post glass-card">
+        <div class="blog-post__header">
+          <img class="blog-post__image" src="basilisk-image.jpg" alt="The Basilisk" />
+          <p class="blog-post__caption glass-text">Photo caption.</p>
+          <h1 class="blog-post__title">The Basilisks NFT</h1>
+          <span class="blog-post__category glass-badge">Gaming</span>
+          
+          <div class="blog-post__meta glass-panel">
+            <p class="blog-post__author">
+              <strong>Tony Nguyen</strong>
+              <time class="blog-post__date" datetime="2022-06-20">20 Jun 2022</time>
             </p>
-          </li>
-          <li>
-            <p>
-              The Basilisks that <a href="#">players</a> collect are represented
-              with NFTs on Ethereum's blockchain with real-world value. Players
-              use the <a href="#">Basilisks they</a> have gathered to battle
-              other players to win ether (ETH).
-            </p>
-          </li>
-          <li>
-            <p>
-              In Balthazar Dragons, players are immersed in a 3D open world to
-              explore and capture dragon-like beasts called Basilisks. Balthazar
-              Dragons is an upcoming fantasy role-playing game developed on the
-              Ethereum blockchain by a decentralized autonomous organization
-              (DAO) called the Balthazar DAO.
-            </p>
-          </li>
-        </ul>
-        <ul>
-          <li>List name 1</li>
-          <li>List name 2</li>
-          <li>List name 3</li>
-          <li>List name 4</li>
-        </ul>
-        <blockquote>
+          </div>
+        </div>
+
+        <div class="blog-post__content glass-panel">
+          <ul class="blog-post__description">
+            <li>
+              <p>
+                The Basilisks that <a href="#">players</a> collect are represented
+                with NFTs on Ethereum's blockchain with real-world value. Players
+                use the <a href="#">Basilisks they</a> have gathered to battle
+                other players to win ether (ETH).
+              </p>
+            </li>
+            <li>
+              <p>
+                In Balthazar Dragons, players are immersed in a 3D open world to
+                explore and capture dragon-like beasts called Basilisks. Balthazar
+                Dragons is an upcoming fantasy role-playing game developed on the
+                Ethereum blockchain by a decentralized autonomous organization
+                (DAO) called the Balthazar DAO.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <blockquote class="blog-post__quote glass-panel">
           <p>
-            “The first huge metaverse arena to arrange live sports, hang out and
-            even make bets and wagers”
+            "The first huge metaverse arena to arrange live sports, hang out and
+            even make bets and wagers"
           </p>
-          <span>⭐ 8.5/10 Markout Corporation</span>
+          <span class="blog-post__rating">⭐ 8.5/10 Markout Corporation</span>
         </blockquote>
 
-        <figure>
+        <figure class="blog-post__gallery glass-grid">
           <figcaption>
             <img src="basilisk-image-2.jpg" alt="Basilisk Image 2" />
           </figcaption>
@@ -137,70 +138,66 @@
           </figcaption>
         </figure>
 
-        <h2>NFTs are digital assets that represent real-world objects</h2>
-        <p>
-          Setting up your avatar and personalizing your nickname on Binance is
-          quick and easy...
-        </p>
-        <h3>NFT Avatar Generators</h3>
-        <a href="#"
-          ><p>
-            You can find a range of NFT marketplaces where you can buy existing
-            NFTs or list your own NFTs for sale.
-          </p></a
-        >
-        <p>
-          Tags: <a href="#" target="_blank"><span>NFT</span></a>
-          <a href="#" target="_blank"><span>ICO</span></a>
-          <a href="#" target="_blank"><span>Crypto</span></a>
-        </p>
+        <div class="blog-post__footer glass-panel">
+          <div class="blog-post__tags">
+            <span>Tags: </span>
+            <a href="#" class="glass-tag">NFT</a>
+            <a href="#" class="glass-tag">ICO</a>
+            <a href="#" class="glass-tag">Crypto</a>
+          </div>
 
-        <div>
-          <span>Share: </span>
-          <a href="#"><img src="twitter.svg" alt="Twitter" /></a>
-          <a href="#"><img src="facebook.svg" alt="Facebook" /></a>
-          <a href="#"><img src="telegram.svg" alt="Telegram" /></a>
+          <div class="blog-post__share glass-panel">
+            <span>Share: </span>
+            <div class="blog-post__social-links">
+              <a href="#" class="glass-icon"><img src="twitter.svg" alt="Twitter" /></a>
+              <a href="#" class="glass-icon"><img src="facebook.svg" alt="Facebook" /></a>
+              <a href="#" class="glass-icon"><img src="telegram.svg" alt="Telegram" /></a>
+            </div>
+          </div>
         </div>
       </article>
     </main>
 
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="footer__logo">
         <!--LOGO AND TEXT CONTAINER-->
-        <a href="index.html">
-          <img src="..." alt="Binabox Logo" />
+        <a href="index.html" class="footer__logo-link">
+          <img src="#" alt="Binabox Logo" class="footer__logo-image" />
         </a>
-        <p>We are the best way to check the rarity of NFT collection.</p>
+        <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
       </div>
-      <nav>
-        <div>
-          <h2>Subscribe</h2>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Catalog</a></li>
-            <li><a href="#">Contact Us</a></li>
+      
+      <nav class="footer__nav">
+        <div class="footer__nav-section">
+          <h2 class="footer__nav-title">Subscribe</h2>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Blog</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Catalog</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
           </ul>
         </div>
-        <div>
-          <h2>Company</h2>
-          <ul>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Whitepaper</a></li>
-            <li><a href="#">Help Center</a></li>
+        
+        <div class="footer__nav-section">
+          <h2 class="footer__nav-title">Company</h2>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Terms & Conditions</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Privacy Policy</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Whitepaper</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Help Center</a></li>
           </ul>
         </div>
       </nav>
-      <div>
-        <p>BINABOX 2022 - ALL rights reserved</p>
-        <div class="footer_social-icons">
-          <a href="#"><img src="#" alt="Twitter" /></a>
-          <a href="#"><img src="#" alt="Facebook" /></a>
-          <a href="#"><img src="#" alt="Telegram" /></a>
-          <a href="#"><img src="#" alt="YouTube" /></a>
-          <a href="#"><img src="#" alt="TikTok" /></a>
-          <a href="#"><img src="#" alt="Discord" /></a>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link"><img src="#" alt="Twitter" class="footer__social-icon" /></a>
+          <a href="#" class="footer__social-link"><img src="#" alt="Facebook" class="footer__social-icon" /></a>
+          <a href="#" class="footer__social-link"><img src="#" alt="Telegram" class="footer__social-icon" /></a>
+          <a href="#" class="footer__social-link"><img src="#" alt="YouTube" class="footer__social-icon" /></a>
+          <a href="#" class="footer__social-link"><img src="#" alt="TikTok" class="footer__social-icon" /></a>
+          <a href="#" class="footer__social-link"><img src="#" alt="Discord" class="footer__social-icon" /></a>
         </div>
       </div>
     </footer>
