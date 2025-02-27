@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <!-- Meta tags and stylesheets -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,8 +11,9 @@
   </head>
 
   <body>
+    <!-- Header Section -->
     <header class="header">
-      <a href="index.html">
+      <a href="index.html" class="header__logo">
         <img src="#" alt="Binabox Logo" />
       </a>
       <nav class="main-nav">
@@ -22,14 +24,14 @@
           <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
         </ul>
         <input type="search" placeholder="Search..." />
-        <a class="button btn--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a class="button btn--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
+        <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
       </nav>
     </header>
 
     <main>
+      <!-- Hero Banner Section -->
       <section class="banner">
-        <!--Banner-->
         <h1>WITH <span>BINABOX</span> EXPLORE NFT COLLECTION!</h1>
         <p>
           We are the best way to check for the rarity of your NFT
@@ -115,6 +117,7 @@
         </div>
       </section>
 
+      <!-- Blog Section -->
       <section class="blog">
         <h2 class="blog__title">Our blog</h2>
         <div class="blog__container">
@@ -207,8 +210,8 @@
         </div>
       </section>
 
+      <!-- About Us Section -->
       <section class="about-us">
-        <!--ABOUT US BLOCK-->
         <h2 class="about-us__title">About Us</h2>
         <p class="about-us__description">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -252,10 +255,10 @@
         </div>
       </section>
 
-      <!--OUR TEAM BLOCK-->
-      <h2 class="team-card__title">Our Team</h2>
-      <section class="team-card">
-        <article>
+      <!-- Team Section -->
+      <section class="team">
+        <h2 class="team-card__title">Our Team</h2>
+        <article class="team-card">
           <img src="image.png" alt="Jason Smith" class="profile-pic" />
           <h3>Jason Smith</h3>
           <p>Co - Founder</p>
@@ -342,6 +345,7 @@
         </article>
       </section>
 
+      <!-- FAQ Section -->
       <section class="faq">
         <h2 class="faq__title">FAQs</h2>
         <div class="faq__list">
@@ -367,19 +371,20 @@
       </section>
     </main>
 
+    <!-- Footer Section -->
     <footer class="footer">
       <div class="footer__brand">
         <a href="index.html" class="footer__logo">
-          <img src="..." alt="Binabox Logo">
+          <img src="..." alt="Binabox Logo" class="footer__logo-image">
         </a>
         <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
       </div>
 
-      <nav class="footer__navigation">
-        <div class="footer__menu">
-          <h2 class="footer__menu-title">Subscribe</h2>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Home</a></li>
+      <nav class="footer__nav">
+        <div class="footer__nav-section">
+          <h2 class="footer__nav-title">Subscribe</h2>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
             <!-- Repeat for other menu items -->
           </ul>
         </div>

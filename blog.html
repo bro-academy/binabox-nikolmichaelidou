@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>OUR BLOG</title>
   </head>
 
   <body>
     <header class="header">
-      <a href="index.html">
+      <a href="index.html" class="header__logo">
         <img src="#" alt="Binabox Logo" />
       </a>
       <nav class="main-nav">
@@ -21,27 +21,24 @@
           <li class="main-nav__list-item"><a href="#">Contact Us</a></li>
         </ul>
         <input type="search" placeholder="Search..." />
-        <a class="button btn--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer" href="#">Discord</a>
-        <a class="button btn--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer" href="#">Connect</a>
+        <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer" href="#">Discord</a>
+        <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer" href="#">Connect</a>
       </nav>
     </header>
 
     <main>
       <section class="banner">
-        <!--Banner Title-->
-        <h2 class="banner-title">Our blog</h2>
-        <div>
-          <ul>
-            <!--Group Buttons-->
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="blog.html" target="_blank">Our blog</a></li>
-            <li><a href="#" target="_blank">The Basilisks NFT</a></li>
+        <h2 class="banner__title">Our blog</h2>
+        <div class="banner__breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a href="index.html">Home</a></li>
+            <li class="breadcrumbs__item"><a href="blog.html">Our blog</a></li>
+            <li class="breadcrumbs__item"><a href="#">The Basilisks NFT</a></li>
           </ul>
         </div>
       </section>
 
       <aside class="sidebar">
-        <!-- Categories Section -->
         <nav class="categories">
           <h3 class="categories__title">Categories</h3>
           <ul class="categories__list">
@@ -160,7 +157,6 @@
 
     <footer class="footer">
       <div class="footer__logo">
-        <!--LOGO AND TEXT CONTAINER-->
         <a href="index.html" class="footer__logo-link">
           <img src="#" alt="Binabox Logo" class="footer__logo-image" />
         </a>
