@@ -9,8 +9,8 @@
 
   <body>
     <header class="header">
-      <a href="index.html" class="logo-link">
-        <img src="#" alt="Binabox Logo" />
+      <a href="index.html" class="logo">
+        <img src="#" alt="Binabox Logo" class="logo-image" />
       </a>
       <nav class="main-nav">
         <ul class="main-nav__list">
@@ -30,7 +30,7 @@
       <section class="banner">
         <h2 class="banner__title">Our blog</h2>
         <div class="banner__breadcrumbs">
-          <ul class="breadcrumbs__list">
+          <ul class="breadcrumbs">
             <li class="breadcrumbs__item">
               <a href="index.html" class="breadcrumbs__link">Home</a>
             </li>
@@ -49,32 +49,39 @@
           <h3 class="categories__title">Categories</h3>
           <ul class="categories__list">
             <li class="categories__item">
-              <a href="#" class="categories__link">Our blog</a>
-              <span class="categories__count">(12)</span>
+              <a href="#" class="categories__link">
+                Our blog <span class="categories__count">(12)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Metaverse</a>
-              <span class="categories__count">(24)</span>
+              <a href="#" class="categories__link">
+                Metaverse <span class="categories__count">(24)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Gaming</a>
-              <span class="categories__count">(24)</span>
+              <a href="#" class="categories__link">
+                Gaming <span class="categories__count">(24)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Art</a>
-              <span class="categories__count">(24)</span>
+              <a href="#" class="categories__link">
+                Art <span class="categories__count">(24)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Robot</a>
-              <span class="categories__count">(24)</span>
+              <a href="#" class="categories__link">
+                Robot <span class="categories__count">(24)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Launchpad</a>
-              <span class="categories__count">(24)</span>
+              <a href="#" class="categories__link">
+                Launchpad <span class="categories__count">(24)</span>
+              </a>
             </li>
             <li class="categories__item">
-              <a href="#" class="categories__link">Crypto</a>
-              <span class="categories__count">(410)</span>
+              <a href="#" class="categories__link">
+                Crypto <span class="categories__count">(410)</span>
+              </a>
             </li>
           </ul>
         </nav>
@@ -82,10 +89,8 @@
 
       <article class="blog-post glass-card">
         <div class="blog-post__header">
-          <figure>
-        <img class="blog-post__image" src="basilisk-image.jpg" alt="The Basilisk" />
-        <figcaption class="blog-post__caption glass-text">Photo caption.</figcaption>
-          </figure>
+          <img class="blog-post__image" src="basilisk-image.jpg" alt="The Basilisk" />
+          <p class="blog-post__caption glass-text">Photo caption.</p>
           <h1 class="blog-post__title">The Basilisks NFT</h1>
           <span class="blog-post__category glass-badge">Gaming</span>
           <div class="blog-post__meta glass-panel">
@@ -116,13 +121,6 @@
               </p>
             </li>
           </ul>
-          
-          <ul class="blog-post__details">
-            <li>Detail 1</li>
-            <li>Detail 2</li>
-            <li>Detail 3</li>
-            <li>Detail 4</li>
-          </ul>
         </div>
 
         <blockquote class="blog-post__quote glass-panel">
@@ -143,13 +141,32 @@
             <figcaption>Third view of the Basilisk creature</figcaption>
           </figure>
         </div>
+
+        <div class="blog-post__footer glass-panel">
+          <div class="blog-post__tags">
+            <span>Tags: </span>
+            <p>NFT</p>
+            <a href="#" class="glass-tag">NFT</a>
+            <a href="#" class="glass-tag">ICO</a>
+            <a href="#" class="glass-tag">Crypto</a>
+          </div>
+
+          <div class="blog-post__share glass-panel">
+            <p>Share: </p>
+            <div class="blog-post__social-links">
+              <a href="#" class="glass-icon"><img src="twitter.svg" alt="Twitter" /></a>
+              <a href="#" class="glass-icon"><img src="facebook.svg" alt="Facebook" /></a>
+              <a href="#" class="glass-icon"><img src="telegram.svg" alt="Telegram" /></a>
+            </div>
+          </div>
+        </div>
       </article>
     </main>
 
     <footer class="footer">
-      <div class="logo">
+      <div class="footer__logo">
         <a href="index.html" class="logo-link">
-          <img src="#" alt="Binabox Logo" class="footer__logo-image" />
+          <img src="#" alt="Binabox Logo" class="logo-image" />
         </a>
         <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
       </div>
