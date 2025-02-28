@@ -9,7 +9,7 @@
 
   <body>
     <header class="header">
-      <a href="index.html" class="logo">
+      <a href="index.html" class="logo-link">
         <img src="#" alt="Binabox Logo" />
       </a>
       <nav class="main-nav">
@@ -49,46 +49,32 @@
           <h3 class="categories__title">Categories</h3>
           <ul class="categories__list">
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Our blog</a>
-                <figcaption class="categories__count">(12)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Our blog</a>
+              <span class="categories__count">(12)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Metaverse</a>
-                <figcaption class="categories__count">(24)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Metaverse</a>
+              <span class="categories__count">(24)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Gaming</a>
-                <figcaption class="categories__count">(24)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Gaming</a>
+              <span class="categories__count">(24)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Art</a>
-                <figcaption class="categories__count">(24)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Art</a>
+              <span class="categories__count">(24)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Robot</a>
-                <figcaption class="categories__count">(24)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Robot</a>
+              <span class="categories__count">(24)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Launchpad</a>
-                <figcaption class="categories__count">(24)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Launchpad</a>
+              <span class="categories__count">(24)</span>
             </li>
             <li class="categories__item">
-              <figure class="categories__figure">
-                <a href="#" class="categories__link">Crypto</a>
-                <figcaption class="categories__count">(410)</figcaption>
-              </figure>
+              <a href="#" class="categories__link">Crypto</a>
+              <span class="categories__count">(410)</span>
             </li>
           </ul>
         </nav>
@@ -96,11 +82,12 @@
 
       <article class="blog-post glass-card">
         <div class="blog-post__header">
-          <img class="blog-post__image" src="basilisk-image.jpg" alt="The Basilisk" />
-          <p class="blog-post__caption glass-text">Photo caption.</p>
+          <figure>
+        <img class="blog-post__image" src="basilisk-image.jpg" alt="The Basilisk" />
+        <figcaption class="blog-post__caption glass-text">Photo caption.</figcaption>
+          </figure>
           <h1 class="blog-post__title">The Basilisks NFT</h1>
           <span class="blog-post__category glass-badge">Gaming</span>
-          
           <div class="blog-post__meta glass-panel">
             <p class="blog-post__author">
               <strong>Tony Nguyen</strong>
@@ -161,7 +148,7 @@
 
     <footer class="footer">
       <div class="logo">
-        <a href="index.html" class="footer__logo-link">
+        <a href="index.html" class="logo-link">
           <img src="#" alt="Binabox Logo" class="footer__logo-image" />
         </a>
         <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
