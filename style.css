@@ -1,0 +1,16 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+/* Bakbak One for headings */
+.bakbak-one-regular {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Poppins for body text */
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
