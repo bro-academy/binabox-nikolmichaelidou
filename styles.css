@@ -294,6 +294,223 @@
     color: #0265DC;
 }
 
+/* Blog Page */
+.blog-page {
+    display: block;
+    padding: 0;
+    width: 100%;
+    background: #0D0D15;
+}
+
+.banner__title {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 36px;
+    color: #F5F8FB;
+    margin-bottom: 10px;
+}
+
+.banner__breadcrumbs {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #F5F8FB;
+}
+
+.breadcrumbs {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.breadcrumbs__item {
+    display: inline;
+}
+
+.breadcrumbs__link {
+    color: #0265DC;
+    text-decoration: none;
+}
+
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    padding: 20px;
+    background: #1A1A2E;
+    color: #F5F8FB;
+    margin-bottom: 20px;
+}
+
+.categories__title {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categories__list {
+    list-style: none;
+    padding: 0;
+}
+
+.categories__item {
+    margin-bottom: 10px;
+}
+
+.categories__link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #F5F8FB;
+    text-decoration: none;
+}
+
+.categories__count {
+    color: #0265DC;
+}
+
+.blog-post {
+    background: #1A1A2E;
+    color: #F5F8FB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-post__header {
+    position: relative;
+}
+
+.blog-post__image--primary {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-post__caption--overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blog-post__title--main {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.blog-post__category--gaming {
+    background: #0265DC;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.blog-post__meta--header {
+    display: block;
+    margin-top: 10px;
+}
+
+.blog-post__author--info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.blog-post__date--published {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.blog-post__content--main {
+    margin-top: 20px;
+}
+
+.blog-post__description--list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-post__description-item {
+    margin-bottom: 10px;
+}
+
+.blog-post__paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.blog-post__link {
+    color: #0265DC;
+    text-decoration: none;
+}
+
+.blog-post__link:hover {
+    text-decoration: underline;
+}
+
+.blog-post__quote {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #1A1A2E;
+    border-left: 5px solid #0265DC;
+}
+
+.blog-post__rating {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #0265DC;
+}
+
+.blog-post__gallery {
+    display: block;
+    margin-top: 20px;
+}
+
+.blog-post__gallery img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-post__footer {
+    margin-top: 20px;
+}
+
+.blog-post__tags {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blog-post__tags span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.blog-post__tags p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #0265DC;
+}
+
+.blog-post__share {
+    display: block;
+    margin-top: 10px;
+}
+
+.blog-post__social-links {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.blog-post__social-links img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
 /* About Us */
 .about-us {
     padding: 50px 0;
