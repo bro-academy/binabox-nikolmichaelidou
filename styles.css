@@ -43,9 +43,9 @@
 
 .logo img {
     position: absolute;
-    width: 36px;
-    height: 40px;
-    left: 0px;
+    width: auto;
+    height: auto;
+    left: 35px;
     top: 1px;
 }
 
