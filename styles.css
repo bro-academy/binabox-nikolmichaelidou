@@ -1,10 +1,11 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 body {
     font-size: 16px;
     line-height: 1.5;
     color: #F5F8FB;
     font-family: "Bakbak One", "Roboto", Arial, sans-serif;
 }
-
 /* Bakbak One for headings */
 .bakbak-one-regular {
     font-family: "Bakbak One", sans-serif;
@@ -34,8 +35,8 @@ body {
 }
 
 .logo img {
-    width: 188;
-    height: 42;
+    left: 35px;
+    top: 1px;
 }
 
 .main-nav {
@@ -131,28 +132,29 @@ body {
     display: block;
     margin: 0 auto;
 }
-
 /* Button Styles */
 .button--primary {
     display: inline-block;
     padding: 8px 20px;
-    background: #0D0D15;
-    border-bottom: 2px solid #0265DC;
+    background: rgba(2, 101, 220, 1);
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     color: #F5F8FB;
+    text-decoration: none;
 }
 
 .button--secondary {
     display: inline-block;
     padding: 10px 20px;
-    background: #0265DC;
+    background: rgba(208, 215, 251, 0.17);
+    font-family: 'Poppins';
     color: #F5F8FB;
     text-decoration: none;
     border-radius: 5px;
     margin: 0 10px;
+    border: 2px solid rgba(208, 215, 251, 0.17)
 }
 
 /* NFT Catalog */
@@ -771,16 +773,4 @@ body {
     width: 24px;
     height: 24px;
     margin-right: 10px;
-}
-
-/* Links */
-.links {
-    box-sizing: border-box;
-    position: relative;
-    width: 679px;
-    height: 380px;
-    left: 90px;
-    top: 1918px;
-    background: #0D0D15;
-    border: 1px dashed #7B61FF;
 }
