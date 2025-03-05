@@ -1,6 +1,11 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
-
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F5F8FB;
+    background-color: #0D0D15;
+}
 /* Bakbak One for headings */
 .bakbak-one-regular {
     font-family: "Bakbak One", sans-serif;
@@ -19,7 +24,7 @@
 .header {
     display: block;
     padding: 32px;
-    width: 100%;
+    /* Removed width: 100% as block elements automatically take full width */
     background: #0D0D15;
 }
 
@@ -53,17 +58,18 @@
     margin-right: 20px;
 }
 
-.main-nav__list-item .button {
+.main-nav__list-item {
     display: inline-block;
     padding: 8px 20px;
     background: #0D0D15;
     border-bottom: 2px solid #0265DC;
 }
 
-.main-nav__list-item .button .text {
+.main-nav__list-item .button {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
+    line-height: 1.5;
     color: #F5F8FB;
 }
 
@@ -77,7 +83,7 @@
 
 /* Hero Banner */
 .banner {
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
     background: #1A1A2E;
     color: #F5F8FB;
@@ -120,7 +126,28 @@
     display: block;
     margin: 0 auto;
 }
+/* Button Styles */
+.button--primary {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #0D0D15;
+    border-bottom: 2px solid #0265DC;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F5F8FB;
+}
 
+.button--secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0265DC;
+    color: #F5F8FB;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
 .banner__button {
     display: inline-block;
     padding: 10px 20px;
