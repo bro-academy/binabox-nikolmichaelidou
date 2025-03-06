@@ -28,7 +28,6 @@ body {
 }
 
 .logo {
-    display: inline-block;
     width: 188px;
     height: 42px;
 }
@@ -39,7 +38,6 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
     vertical-align: top;
     width: auto;
 }
@@ -582,7 +580,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     width: calc(25% - 20px);
-    margin: 10px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -625,7 +622,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 10px;
     width: calc(33.333% - 20px);
     box-sizing: border-box;
 }
