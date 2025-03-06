@@ -1,11 +1,16 @@
-/* Typography */
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 body {
     font-size: 16px;
     line-height: 1.5;
     color: #F5F8FB;
-    font-family: "Bakbak One", "Roboto", Arial, sans-serif;
+    font-family: "Bakbak One", Arial, sans-serif;
+    /* Homepage */
+    width: 1280px;
+    height: 6618.79px;
+    left: 2028px;
+    top: 100px;
+    background: #0D0D15;
 }
+
 /* Bakbak One for headings */
 .bakbak-one-regular {
     font-family: "Bakbak One", sans-serif;
@@ -34,7 +39,7 @@ body {
 }
 
 .logo img {
-    left: 35px;
+    padding: 35px;
     top: 1px;
 }
 
@@ -69,7 +74,7 @@ body {
     margin-right: 20px;
 }
 
-.main-nav__link{
+.main-nav__link {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -86,26 +91,21 @@ body {
     color: #F5F8FB;
 }
 
-/* Homepage */
-.homepage {
-    display: block;
-    padding: 0;
-    width: 100%;
-    background: #0D0D15;
-}
-
 /* Hero Banner */
 .banner {
     text-align: left;
     padding: 50px 0;
-    background: #1A1A2E;
+    background: radial-gradient(44.91% 42.19% at 22% -4%, rgba(2, 101, 220, 0.5), rgba(2, 101, 220, 0) 100%), rgb(13, 13, 21);
     color: #F5F8FB;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .banner__heading {
     font-family: 'Bakbak One', sans-serif;
     font-size: 48px;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .banner__highlight {
@@ -116,6 +116,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .banner__stats {
@@ -128,6 +129,7 @@ body {
 .banner__stat-label {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .banner__stat-value {
@@ -135,33 +137,27 @@ body {
     font-size: 24px;
 }
 
-.banner__button-group {
-    display: block;
-    margin: 0 auto;
-}
 /* Button Styles */
-.button--primary {
+.button {
     display: inline-block;
-    padding: 8px 20px;
-    background: rgba(2, 101, 220, 1);
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    color: #F5F8FB;
     text-decoration: none;
+    padding: 8px 20px;
+    color: #F5F8FB;
+}
+
+.button--primary {
+    background: rgba(2, 101, 220, 1);
 }
 
 .button--secondary {
-    display: inline-block;
-    padding: 10px 20px;
     background: rgba(208, 215, 251, 0.17);
-    font-family: 'Poppins';
-    color: #F5F8FB;
-    text-decoration: none;
-    border-radius: 5px;
+    border: 2px solid rgba(208, 215, 251, 0.17);
     margin: 0 10px;
-    border: 2px solid rgba(208, 215, 251, 0.17)
+    padding: 10px 20px;
 }
 
 /* NFT Catalog */
