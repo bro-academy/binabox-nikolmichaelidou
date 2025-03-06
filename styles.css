@@ -22,7 +22,6 @@ body {
 
 /* Header */
 .header {
-    display: block;
     padding: 32px;
     /* Removed width: 100% as block elements automatically take full width */
     background: #0D0D15;
@@ -70,6 +69,14 @@ body {
     margin-right: 20px;
 }
 
+.main-nav__link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F5F8FB;
+    text-decoration: none;
+}
 
 .main-nav__list-item {
     font-family: 'Poppins';
