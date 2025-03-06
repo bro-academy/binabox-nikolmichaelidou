@@ -3,212 +3,213 @@
 
   <head>
     <meta charset="UTF-8" />
+    <title>Our Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@500&display=swap"
+      rel="stylesheet">
   </head>
+  
+  <!--Header-->
+  <header class="header">
+    <a href="index.html" class="logo-link">
+      <img src="Logos.png" alt="Binabox Logo" class="logo-image" />
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__list-item"><a class="main-nav__link" href="index.html">Home</a></li>
+        <li class="main-nav__list-item"><a class="main-nav__link" href="blog.html">Blog</a></li>
+        <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
+        <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
+        <li class="main-nav__list-item"><a class="main-nav__link" href="#">Contact Us</a></li>
+      </ul>
+      <input type="search" placeholder="Search..." />
+      <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+      <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
+    </nav>
+  </header>
 
-  <body>
-    <header class="header">
-      <a href="index.html" class="logo">
+  <main>
+    <section class="banner">
+      <h2 class="banner__title">Our blog</h2>
+      <div class="banner__breadcrumbs">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs__item">
+            <a href="index.html" class="breadcrumbs__link">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="blog.html" class="breadcrumbs__link">Our blog</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link">The Basilisks NFT</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <nav class="categories">
+        <h3 class="categories__title">Categories</h3>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Our blog <span class="categories__count">(12)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Metaverse <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Gaming <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Art <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Robot <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Launchpad <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Crypto <span class="categories__count">(410)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <article class="blog-post glass-card">
+      <div class="blog-post__header">
+        <img class="blog-post__image blog-post__image--primary" src="basilisk-image.jpg" alt="The Basilisk" />
+        <p class="blog-post__caption blog-post__caption--overlay glass-text">Photo caption.</p>
+        <h1 class="blog-post__title blog-post__title--main">The Basilisks NFT</h1>
+        <span class="blog-post__category blog-post__category--gaming glass-badge">Gaming</span>
+        <div class="blog-post__meta blog-post__meta--header glass-panel">
+          <p class="blog-post__author blog-post__author--info">
+            <strong class="blog-post__author-name">Tony Nguyen</strong>
+            <time class="blog-post__date blog-post__date--published" datetime="2022-06-20">20 Jun 2022</time>
+          </p>
+        </div>
+      </div>
+
+      <div class="blog-post__content blog-post__content--main glass-panel">
+        <ul class="blog-post__description blog-post__description--list">
+          <li class="blog-post__description-item">
+            <p class="blog-post__paragraph">
+              The Basilisks that <a class="blog-post__link" href="#">players</a> collect are represented
+              with NFTs on Ethereum's blockchain with real-world value. Players
+              use the <a class="blog-post__link" href="#">Basilisks they</a> have gathered to battle
+              other players to win ether (ETH).
+            </p>
+          </li>
+          <li class="blog-post__description-item">
+            <p class="blog-post__paragraph">
+              In Balthazar Dragons, players are immersed in a 3D open world to
+              explore and capture dragon-like beasts called Basilisks. Balthazar
+              Dragons is an upcoming fantasy role-playing game developed on the
+              Ethereum blockchain by a decentralized autonomous organization
+              (DAO) called the Balthazar DAO.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <blockquote class="blog-post__quote glass-panel">
+        <p>
+          "The first huge metaverse arena to arrange live sports, hang out and
+          even make bets and wagers"
+        </p>
+        <span class="blog-post__rating">⭐ 8.5/10 Markout Corporation</span>
+      </blockquote>
+
+      <div class="blog-post__gallery glass-grid">
+        <figure>
+          <img src="basilisk-image-2.jpg" alt="Basilisk Image 2" />
+          <figcaption>Second view of the Basilisk creature</figcaption>
+        </figure>
+        <figure>
+          <img src="basilisk-image-3.jpg" alt="Basilisk Image 3" />
+          <figcaption>Third view of the Basilisk creature</figcaption>
+        </figure>
+      </div>
+
+      <div class="blog-post__footer glass-panel">
+        <div class="blog-post__tags">
+          <span>Tags: </span>
+          <p>NFT</p>
+          <a href="#" class="glass-tag">NFT</a>
+          <a href="#" class="glass-tag">ICO</a>
+          <a href="#" class="glass-tag">Crypto</a>
+        </div>
+
+        <div class="blog-post__share glass-panel">
+          <p>Share: </p>
+          <div class="blog-post__social-links">
+            <a href="#" class="glass-icon"><img src="twitter.svg" alt="Twitter" /></a>
+            <a href="#" class="glass-icon"><img src="facebook.svg" alt="Facebook" /></a>
+            <a href="#" class="glass-icon"><img src="telegram.svg" alt="Telegram" /></a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">
+      <a href="index.html" class="logo-link">
         <img src="Logos.png" alt="Binabox Logo" class="logo-image" />
       </a>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__list-item"><a href="index.html">Home</a></li>
-          <li class="main-nav__list-item"><a href="blog.html">Blog</a></li>
-          <li class="main-nav__list-item"><a href="#">Catalog</a></li>
-          <li class="main-nav__list-item"><a href="#">Collection</a></li>
-          <li class="main-nav__list-item"><a href="#">Contact Us</a></li>
+      <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
+    </div>
+
+    <nav class="footer__nav">
+      <div class="footer__nav-section">
+        <h2 class="footer__nav-title">Subscribe</h2>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Blog</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Catalog</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
         </ul>
-        <input type="search" placeholder="Search..." />
-        <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="banner">
-        <h2 class="banner__title">Our blog</h2>
-        <div class="banner__breadcrumbs">
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs__item">
-              <a href="index.html" class="breadcrumbs__link">Home</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="blog.html" class="breadcrumbs__link">Our blog</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">The Basilisks NFT</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <aside class="sidebar">
-        <nav class="categories">
-          <h3 class="categories__title">Categories</h3>
-          <ul class="categories__list">
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Our blog <span class="categories__count">(12)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Metaverse <span class="categories__count">(24)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Gaming <span class="categories__count">(24)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Art <span class="categories__count">(24)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Robot <span class="categories__count">(24)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Launchpad <span class="categories__count">(24)</span>
-              </a>
-            </li>
-            <li class="categories__item">
-              <a href="#" class="categories__link">
-                Crypto <span class="categories__count">(410)</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-
-      <article class="blog-post glass-card">
-        <div class="blog-post__header">
-          <img class="blog-post__image blog-post__image--primary" src="basilisk-image.jpg" alt="The Basilisk" />
-          <p class="blog-post__caption blog-post__caption--overlay glass-text">Photo caption.</p>
-          <h1 class="blog-post__title blog-post__title--main">The Basilisks NFT</h1>
-          <span class="blog-post__category blog-post__category--gaming glass-badge">Gaming</span>
-          <div class="blog-post__meta blog-post__meta--header glass-panel">
-            <p class="blog-post__author blog-post__author--info">
-              <strong class="blog-post__author-name">Tony Nguyen</strong>
-              <time class="blog-post__date blog-post__date--published" datetime="2022-06-20">20 Jun 2022</time>
-            </p>
-          </div>
-        </div>
-
-        <div class="blog-post__content blog-post__content--main glass-panel">
-          <ul class="blog-post__description blog-post__description--list">
-            <li class="blog-post__description-item">
-              <p class="blog-post__paragraph">
-                The Basilisks that <a class="blog-post__link" href="#">players</a> collect are represented
-                with NFTs on Ethereum's blockchain with real-world value. Players
-                use the <a class="blog-post__link" href="#">Basilisks they</a> have gathered to battle
-                other players to win ether (ETH).
-              </p>
-            </li>
-            <li class="blog-post__description-item">
-              <p class="blog-post__paragraph">
-                In Balthazar Dragons, players are immersed in a 3D open world to
-                explore and capture dragon-like beasts called Basilisks. Balthazar
-                Dragons is an upcoming fantasy role-playing game developed on the
-                Ethereum blockchain by a decentralized autonomous organization
-                (DAO) called the Balthazar DAO.
-              </p>
-            </li>
-          </ul>
-        </div>
-
-        <blockquote class="blog-post__quote glass-panel">
-          <p>
-            "The first huge metaverse arena to arrange live sports, hang out and
-            even make bets and wagers"
-          </p>
-          <span class="blog-post__rating">⭐ 8.5/10 Markout Corporation</span>
-        </blockquote>
-
-        <div class="blog-post__gallery glass-grid">
-          <figure>
-            <img src="basilisk-image-2.jpg" alt="Basilisk Image 2" />
-            <figcaption>Second view of the Basilisk creature</figcaption>
-          </figure>
-          <figure>
-            <img src="basilisk-image-3.jpg" alt="Basilisk Image 3" />
-            <figcaption>Third view of the Basilisk creature</figcaption>
-          </figure>
-        </div>
-
-        <div class="blog-post__footer glass-panel">
-          <div class="blog-post__tags">
-            <span>Tags: </span>
-            <p>NFT</p>
-            <a href="#" class="glass-tag">NFT</a>
-            <a href="#" class="glass-tag">ICO</a>
-            <a href="#" class="glass-tag">Crypto</a>
-          </div>
-
-          <div class="blog-post__share glass-panel">
-            <p>Share: </p>
-            <div class="blog-post__social-links">
-              <a href="#" class="glass-icon"><img src="twitter.svg" alt="Twitter" /></a>
-              <a href="#" class="glass-icon"><img src="facebook.svg" alt="Facebook" /></a>
-              <a href="#" class="glass-icon"><img src="telegram.svg" alt="Telegram" /></a>
-            </div>
-          </div>
-        </div>
-      </article>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__logo">
-        <a href="index.html" class="logo-link">
-          <img src="Logos.png" alt="Binabox Logo" class="logo-image" />
-        </a>
-        <p class="footer__tagline">We are the best way to check the rarity of NFT collection.</p>
       </div>
 
-      <nav class="footer__nav">
-        <div class="footer__nav-section">
-          <h2 class="footer__nav-title">Subscribe</h2>
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Blog</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Catalog</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__nav-section">
-          <h2 class="footer__nav-title">Company</h2>
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Terms & Conditions</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Privacy Policy</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Whitepaper</a></li>
-            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Help Center</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="footer__bottom">
-        <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
-        <div class="footer__social">
-          <a href="#" class="footer__social-link"><img src="#" alt="Twitter" class="footer__social-icon" /></a>
-          <a href="#" class="footer__social-link"><img src="#" alt="Facebook" class="footer__social-icon" /></a>
-          <a href="#" class="footer__social-link"><img src="#" alt="Telegram" class="footer__social-icon" /></a>
-          <a href="#" class="footer__social-link"><img src="#" alt="YouTube" class="footer__social-icon" /></a>
-          <a href="#" class="footer__social-link"><img src="#" alt="TikTok" class="footer__social-icon" /></a>
-          <a href="#" class="footer__social-link"><img src="#" alt="Discord" class="footer__social-icon" /></a>
-        </div>
+      <div class="footer__nav-section">
+        <h2 class="footer__nav-title">Company</h2>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Terms & Conditions</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Privacy Policy</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Whitepaper</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Help Center</a></li>
+        </ul>
       </div>
-    </footer>
+    </nav>
+
+    <div class="footer__bottom">
+      <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link"><img src="#" alt="Twitter" class="footer__social-icon" /></a>
+        <a href="#" class="footer__social-link"><img src="#" alt="Facebook" class="footer__social-icon" /></a>
+        <a href="#" class="footer__social-link"><img src="#" alt="Telegram" class="footer__social-icon" /></a>
+        <a href="#" class="footer__social-link"><img src="#" alt="YouTube" class="footer__social-icon" /></a>
+        <a href="#" class="footer__social-link"><img src="#" alt="TikTok" class="footer__social-icon" /></a>
+        <a href="#" class="footer__social-link"><img src="#" alt="Discord" class="footer__social-icon" /></a>
+      </div>
+    </div>
+  </footer>
   </body>
 
 </html>

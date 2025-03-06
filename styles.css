@@ -65,8 +65,7 @@ body {
 }
 
 .main-nav__link:hover {
-    color: #0265DC;
-    text-decoration: underline;
+    color: rgb(56, 146, 243);
 }
 
 .main-nav__list-item {
@@ -150,7 +149,17 @@ body {
 }
 
 .button--primary {
-    background: rgba(2, 101, 220, 1);
+    display: inline-block;
+    padding: 8px 20px;
+    background: #0265DC;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F5F8FB;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .button--secondary {
