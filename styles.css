@@ -57,10 +57,6 @@ body {
     text-decoration: none;
 }
 
-.main-nav__link:hover {
-    color: rgb(56, 146, 243);
-}
-
 .main-nav__list-item {
     display: inline;
     margin-right: 20px;
@@ -175,8 +171,13 @@ body {
 }
 
 .catalog__title {
-    font-family: 'Bakbak One', sans-serif;
-    font-size: 36px;
+    color: rgb(248, 247, 255);
+    font-family: Bakbak One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 .catalog__controls {
@@ -325,6 +326,7 @@ body {
     color: #0265DC;
 }
 
+
 /* Blog Page */
 .blog-page {
     display: block;
@@ -362,9 +364,6 @@ body {
     text-decoration: none;
 }
 
-.breadcrumbs__link:hover {
-    text-decoration: underline;
-}
 
 .sidebar {
     padding: 20px;
@@ -476,9 +475,6 @@ body {
     text-decoration: none;
 }
 
-.blog-post__link:hover {
-    text-decoration: underline;
-}
 
 .blog-post__quote {
     font-family: 'Bakbak One', sans-serif;
@@ -750,9 +746,6 @@ body {
     text-decoration: none;
 }
 
-.footer__nav-link:hover {
-    text-decoration: underline;
-}
 
 .footer__bottom {
     display: block;
@@ -777,4 +770,19 @@ body {
     width: 24px;
     height: 24px;
     margin-right: 10px;
+}
+
+/* Link styles */
+a {
+    color: rgb(120, 187, 250);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(56, 146, 243);
+}
+
+a:focus {
+    border: 4px solid rgb(56, 146, 243);
+    border-radius: 5px;
 }
