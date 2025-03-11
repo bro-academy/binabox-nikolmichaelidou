@@ -8,7 +8,6 @@ body {
 
 /* Bakbak One for headings */
 .bakbak-one-regular {
-    font-family: "Bakbak One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -24,7 +23,7 @@ body {
 .header {
     padding: 32px;
     /* Removed width: 100% as block elements automatically take full width */
-    background: #0D0D15;
+    /* background: #0D0D15; WILL INHERIT IT FROM BODY*/
 }
 
 .logo {
@@ -58,21 +57,7 @@ body {
 }
 
 .main-nav__list-item {
-    display: inline;
-    margin-right: 20px;
-}
-
-.main-nav__link {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #F5F8FB;
-    text-decoration: none;
-}
-
-.main-nav__list-item {
-    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -90,7 +75,6 @@ body {
 }
 
 .banner__heading {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -141,8 +125,6 @@ body {
     display: inline-block;
     padding: 8px 20px;
     background: #0265DC;
-    border: none;
-    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -172,7 +154,6 @@ body {
 
 .catalog__title {
     color: rgb(248, 247, 255);
-    font-family: Bakbak One;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -240,7 +221,6 @@ body {
 }
 
 .nft-card__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
 }
 
@@ -252,7 +232,6 @@ body {
 }
 
 .blog__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
@@ -310,7 +289,6 @@ body {
 }
 
 .blog__post-title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -336,7 +314,6 @@ body {
 }
 
 .banner__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     color: #F5F8FB;
     margin-bottom: 10px;
@@ -373,7 +350,6 @@ body {
 }
 
 .categories__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -425,7 +401,6 @@ body {
 }
 
 .blog-post__title--main {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     margin-top: 20px;
 }
@@ -477,7 +452,6 @@ body {
 
 
 .blog-post__quote {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin: 20px 0;
     padding: 20px;
@@ -546,7 +520,6 @@ body {
 }
 
 .about-us__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
@@ -581,14 +554,12 @@ body {
 }
 
 .about-us__number {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     color: #0265DC;
     margin-bottom: 10px;
 }
 
 .about-us__list-item-title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -606,7 +577,6 @@ body {
 }
 
 .team__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
@@ -631,7 +601,6 @@ body {
 }
 
 .team-card__name {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -665,7 +634,6 @@ body {
 }
 
 .faq__title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 36px;
     text-align: center;
     margin-bottom: 30px;
@@ -684,7 +652,6 @@ body {
 }
 
 .faq__question {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     cursor: pointer;
 }
@@ -725,7 +692,6 @@ body {
 }
 
 .footer__nav-title {
-    font-family: 'Bakbak One', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
