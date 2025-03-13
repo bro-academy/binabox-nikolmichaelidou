@@ -95,7 +95,6 @@ body {
     display: block;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto 30px;
 }
 
 .banner__stat-label {
@@ -117,7 +116,7 @@ body {
     line-height: 1.5;
     text-decoration: none;
     padding: 8px 20px;
-    color: #F5F8FB;
+    color: white;
 }
 
 .button--primary {
@@ -125,7 +124,7 @@ body {
 }
 
 .button--secondary {
-    background: rgba(208, 215, 251, 0.17);
+    background: rgba(208, 215, 251, 0);
     border: 2px solid rgba(208, 215, 251, 0.17);
     margin: 0 10px;
     padding: 10px 20px;
@@ -167,13 +166,13 @@ body {
     margin-left: 20px;
 }
 
-.catalog__nav-btn {
+/* .catalog__nav-btn {
     background: none;
     border: none;
     color: #0265DC;
     font-size: 24px;
     cursor: pointer;
-}
+} */
 
 .catalog__grid {
     display: block;
