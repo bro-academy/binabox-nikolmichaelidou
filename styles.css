@@ -14,7 +14,7 @@ body {
 
 /* Poppins for body text */
 .poppins-medium {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
