@@ -174,14 +174,6 @@ body {
     margin-left: 20px;
 }
 
-/* .catalog__nav-btn {
-    background: none;
-    border: none;
-    color: #0265DC;
-    font-size: 24px;
-    cursor: pointer;
-} */
-
 .catalog__grid {
     display: block;
     margin: 0 auto;
@@ -192,9 +184,11 @@ body {
     background: #1A1A2E;
     padding: 20px;
     border-radius: 10px;
-    width: calc(33.333% - 20px);
+    width: calc(20% - 20px);
     margin: 10px;
     box-sizing: border-box;
+    text-align: center;
+    position: relative;
 }
 
 .nft-card__image {
@@ -209,11 +203,17 @@ body {
     background: #0265DC;
     color: #F5F8FB;
     border-radius: 5px;
-    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nft-card__badge--sold-out{
+    background: rgba(234, 56, 41, 1);
 }
 
 .nft-card__price {
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #F5F8FB;
@@ -221,7 +221,9 @@ body {
 }
 
 .nft-card__title {
-    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #F5F8FB;
 }
 
 /* Blog */
