@@ -21,30 +21,35 @@ body {
 
 /* Header */
 .header {
-    padding: 32px;
-    /* Removed width: 100% as block elements automatically take full width */
-    /* background: #0D0D15; WILL INHERIT IT FROM BODY*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #0D0D15;
 }
 
 .logo {
-    width: 188px;
-    height: 42px;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-    padding: 35px;
-    top: 1px;
+    height: 42px;
+    margin-right: 10px;
 }
 
-.main-nav {
+/* Navigation */
+
+.main-nav .main-nav {
+    display: flex;
+    align-items: center;
     vertical-align: top;
     width: auto;
 }
 
 .main-nav__list {
+    display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .main-nav__link {
@@ -54,6 +59,7 @@ body {
     line-height: 1.5;
     color: #F5F8FB;
     text-decoration: none;
+    padding: 10px 15px;
 }
 
 .main-nav__list-item {
@@ -62,7 +68,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #F5F8FB;
+    margin-right: 20px;
 }
+
 
 /* Hero Banner */
 .banner {
