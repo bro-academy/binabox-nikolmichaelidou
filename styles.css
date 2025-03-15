@@ -2,7 +2,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #F5F8FB;
-    font-family: "Bakbak One", Arial, sans-serif;
+    font-family: 'Bakbak One', Arial, sans-serif;
     background: #0D0D15;
 }
 
@@ -14,7 +14,7 @@ body {
 
 /* Poppins for body text */
 .poppins-medium {
-    font-family: "Poppins", Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
