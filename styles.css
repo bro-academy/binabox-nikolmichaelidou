@@ -116,11 +116,8 @@ body {
 }
 
 .banner__image {
-    width: 533.499267578125;
-    height: 641.8035888671875;
-    top: -0.9px;
-    left: 1030.5px;
-    
+    height: calc(41vh - -93px);
+    margin-left: 86vh;
 }
 
 /* Button Styles */
