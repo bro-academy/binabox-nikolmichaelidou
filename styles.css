@@ -40,7 +40,7 @@ body {
 
 /* Navigation */
 
-.main-nav .main-nav {
+.main-nav {
     display: flex;
     align-items: center;
     vertical-align: top;
@@ -113,6 +113,14 @@ body {
 
 .banner__stat-value {
     font-size: 24px;
+}
+
+.banner__image {
+    width: 533.499267578125;
+    height: 641.8035888671875;
+    top: -0.9px;
+    left: 1030.5px;
+    
 }
 
 /* Button Styles */
@@ -208,7 +216,7 @@ body {
     right: 10px;
 }
 
-.nft-card__badge--sold-out{
+.nft-card__badge--sold-out {
     background: rgba(234, 56, 41, 1);
 }
 
