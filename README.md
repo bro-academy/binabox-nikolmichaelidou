@@ -34,9 +34,3 @@ Available flags:
 Student: Nikoletta Michailidou
 
 Mentor: Elizaveta Pak
-
-# TO DO
-
-- [x] add nunjucks examples of components, etc
-- [ ] restore file structure for images after converting
-- [ ] run linter only with flag
