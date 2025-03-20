@@ -53,7 +53,8 @@ body {
 }
 
 .main-nav__list {
-    width: 89px; /* Fixed missing unit */
+    width: 89px;
+    /* Fixed missing unit */
     height: 40px;
     gap: 8px;
     padding-top: 8px;
@@ -116,8 +117,7 @@ body {
 .banner {
     width: 866.500732421875px;
     height: 362px;
-    background: linear-gradient(0deg, var(--BG-Base, #0D0D15), var(--BG-Base, #0D0D15)),
-        radial-gradient(42.5% 42.5% at 22.28% -4.22%, rgba(2, 101, 220, 0.5) 0%, rgba(2, 101, 220, 0) 100%);
+    background: radial-gradient(44.91% 42.19% at 22% -4%, rgba(2, 101, 220, 0.5), rgba(2, 101, 220, 0) 100%), rgb(13, 13, 21);
 }
 
 .banner__heading {
@@ -175,7 +175,7 @@ body {
     gap: 16px;
 }
 
-.banner__title{
+.banner__title {
     background-image: url(src\images\static\our-blog-background.webp);
 }
 
@@ -220,7 +220,7 @@ body {
 }
 
 .catalog__header {
-    
+
     align-items: center;
     margin-bottom: 30px;
 }
