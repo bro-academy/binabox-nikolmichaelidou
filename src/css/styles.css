@@ -243,8 +243,10 @@ body {
 }
 
 .catalog__grid {
-    display: block;
-    margin: 0 auto;
+    width: 1600px;
+    height: 480px;
+    gap: 24px;
+
 }
 
 .nft-list {
@@ -255,22 +257,17 @@ body {
 }
 
 .nft-card {
-    display: inline-block;
-    background: #1A1A2E;
-    padding: 20px;
-    border-radius: 10px;
-    width: calc(20% - 20px);
-    margin: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    text-align: left;
+    width: 300.79998779296875px;
+    height: 480px;
+    gap: 24px;
+    padding: 24px;
+    background: rgba(29, 28, 40, 1);
 }
 
 .nft-card__image {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    width: 252.79998779296875px;
+    height: 324px;
+
 }
 
 .nft-card__badge {
