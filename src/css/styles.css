@@ -175,6 +175,10 @@ body {
     gap: 16px;
 }
 
+.banner__title{
+    background-image: url(src\images\static\our-blog-background.webp);
+}
+
 /* Button Styles */
 .button {
     display: inline-block;
