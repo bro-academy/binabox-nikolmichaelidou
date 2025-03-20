@@ -23,13 +23,10 @@ body {
 .header {
     width: 1728px;
     height: 112px;
-    justify-content: space-between;
-    padding: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #1c1c1c;
 }
 
 .logo {
@@ -119,15 +116,10 @@ body {
 
 /* Hero Banner */
 .banner {
-    text-align: left;
-    padding: 50px 0;
-    background: radial-gradient(44.91% 42.19% at 22% -4%, rgba(2, 101, 220, 0.5), rgba(2, 101, 220, 0) 100%), rgb(13, 13, 21);
-    color: #F5F8FB;
-    font-size: 18px;
-    line-height: 1.5;
     width: 866.500732421875px;
     height: 362px;
-    gap: 32px;
+    background: linear-gradient(0deg, var(--BG-Base, #0D0D15), var(--BG-Base, #0D0D15)),
+        radial-gradient(42.5% 42.5% at 22.28% -4.22%, rgba(2, 101, 220, 0.5) 0%, rgba(2, 101, 220, 0) 100%);
 }
 
 .banner__heading {
@@ -239,13 +231,10 @@ body {
 }
 
 .catalog__controls {
-    display: block;
-    margin-top: 10px;
-}
+    width: 254px;
+    height: 48px;
+    gap: 16px;
 
-.catalog__view-all {
-    text-decoration: none;
-    color: #0265DC;
 }
 
 .catalog__navigation {
@@ -256,6 +245,13 @@ body {
 .catalog__grid {
     display: block;
     margin: 0 auto;
+}
+
+.nft-list {
+    width: 1600px;
+    height: 480px;
+    gap: 24px;
+
 }
 
 .nft-card {
