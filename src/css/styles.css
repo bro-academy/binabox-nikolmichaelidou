@@ -53,7 +53,7 @@ body {
 }
 
 .main-nav__link {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -93,7 +93,7 @@ body {
 }
 
 .banner__text {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.5;
@@ -106,7 +106,7 @@ body {
 }
 
 .banner__stat-label {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -287,12 +287,12 @@ body {
 }
 
 .blog__author {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
 .blog__date {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -302,7 +302,7 @@ body {
 }
 
 .blog__excerpt {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -329,7 +329,7 @@ body {
 }
 
 .banner__breadcrumbs {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
     color: #F5F8FB;
 }
@@ -373,7 +373,7 @@ body {
 }
 
 .categories__link {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     color: #F5F8FB;
     text-decoration: none;
@@ -427,12 +427,12 @@ body {
 }
 
 .blog-post__author--info {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
 .blog-post__date--published {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -450,7 +450,7 @@ body {
 }
 
 .blog-post__paragraph {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -469,7 +469,7 @@ body {
 }
 
 .blog-post__rating {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
     color: #0265DC;
 }
@@ -495,12 +495,12 @@ body {
 }
 
 .blog-post__tags span {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
 .blog-post__tags p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
     color: #0265DC;
 }
@@ -535,7 +535,7 @@ body {
 }
 
 .about-us__description {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
@@ -574,7 +574,7 @@ body {
 }
 
 .about-us__list-item-description {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -615,7 +615,7 @@ body {
 }
 
 .team-card__role {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -666,7 +666,7 @@ body {
 }
 
 .faq__answer {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     margin-top: 10px;
 }
@@ -684,7 +684,7 @@ body {
 }
 
 .footer__tagline {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
     margin-top: 10px;
 }
@@ -715,7 +715,7 @@ body {
 }
 
 .footer__nav-link {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     color: #F5F8FB;
     text-decoration: none;
@@ -728,7 +728,7 @@ body {
 }
 
 .footer__copyright {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 14px;
 }
 
