@@ -347,7 +347,7 @@ body {
     font-size: 36px;
     color: #F5F8FB;
     margin-bottom: 10px;
-    background-image: url(images/tinywow_image%20background_77037350.webp);
+    background-image: url(src\images\static\our-blog-background.webp);
 }
 
 .banner__breadcrumbs {
