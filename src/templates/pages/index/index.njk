@@ -1,5 +1,13 @@
 {% extends "layouts/base.njk" %}
 
+{% block title %}Index Page{% endblock %}
+
 {% block content %}
-index page content
+<h1>Welcome to the Index Page</h1>
+<p>Here is some dynamic content:</p>
+<ul>
+    {% for item in items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>
 {% endblock %}
