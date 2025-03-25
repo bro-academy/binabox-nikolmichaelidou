@@ -1,9 +1,9 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  color: #F5F8FB;
-  font-family: 'Bakbak One', Arial, sans-serif;
-  background: #0D0D15;
+  color: #f5f8fb;
+  font-family: "Bakbak One", Arial, sans-serif;
+  background: #0d0d15;
 }
 
 /* Bakbak One for headings */
@@ -14,20 +14,18 @@ body {
 
 /* Poppins for body text */
 .poppins-medium {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 /* Header */
 .header {
-  max-width: 100%;
-  width: auto;
-  height: 112px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  line-height: 24px;
 }
 
 .logo {
@@ -70,10 +68,10 @@ body {
 }
 
 .main-nav__link {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: #F5F8FB;
+  color: #f5f8fb;
   text-decoration: none;
   padding: 10px 15px;
   width: 49px;
@@ -103,7 +101,6 @@ body {
   margin-right: 20px;
 } DO NOT DUPLICATE STYLES. IF YOU DO NOT HAVE TEXT CONTENT INSIDE THE TAG/SELECTOR */
 
-
 .search {
   padding: 5px;
   margin-right: 20px;
@@ -113,12 +110,16 @@ body {
   color: #ffffff;
 }
 
-
 /* Hero Banner */
 .banner {
-  width: 866.500732421875px;
+  width: 866.5px;
   height: 362px;
-  background: radial-gradient(44.91% 42.19% at 22% -4%, rgba(2, 101, 220, 0.5), rgba(2, 101, 220, 0) 100%), rgb(13, 13, 21);
+  background: radial-gradient(
+      44.91% 42.19% at 22% -4%,
+      rgba(2, 101, 220, 0.5),
+      rgba(2, 101, 220, 0) 100%
+    ),
+    rgb(13, 13, 21);
 }
 
 .banner__heading {
@@ -128,11 +129,11 @@ body {
 }
 
 .banner__highlight {
-  color: #0265DC;
+  color: #0265dc;
 }
 
 .banner__text {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 1.5;
@@ -145,7 +146,7 @@ body {
 }
 
 .banner__stat-label {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   width: 95px;
   height: 24px;
   font-weight: 400;
@@ -183,18 +184,17 @@ body {
 /* Button Styles */
 .button {
   display: inline-block;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
   padding: 8px 20px;
-  color: white;
+  color: #ffffff;
 }
 
 .button--primary {
-  background: #0265DC;
-  background-color: #007bff;
+  background: #0265dc;
   color: #ffffff;
 }
 
@@ -209,25 +209,24 @@ body {
 
 .button--secondary:hover,
 .button--primary:hover {
-  opacity: 0.8;
+  background: #3892f3;
 }
 
 /* Catalog */
 .catalog {
   padding: 50px 0;
-  background: #0D0D15;
-  color: #F5F8FB;
+  background: #0d0d15;
+  color: #f5f8fb;
   display: inline-block;
 }
 
 .catalog__header {
-
   align-items: center;
   margin-bottom: 30px;
 }
 
 .catalog__title {
-  color: #F8F7FF;
+  color: #f8f7ff;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -247,13 +246,13 @@ body {
 .catalog__navigation button {
   background: none;
   border: none;
-  color: #F5F8FB;
+  color: #f5f8fb;
   font-size: 24px;
   cursor: pointer;
 }
 
 .catalog__navigation button:hover {
-  color: #0265DC;
+  color: #0265dc;
 }
 
 .catalog__grid {
@@ -264,9 +263,8 @@ body {
 
 .nft-card {
   width: 300px;
-  background: #1D1C28;
+  background: #1d1c28;
   padding: 24px;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   list-style: none;
@@ -275,62 +273,48 @@ body {
 .nft-card__image {
   width: 100%;
   height: auto;
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .nft-card__badge {
   padding: 5px 10px;
-  background: #0265DC;
-  color: #F5F8FB;
-  border-radius: 5px;
+  background: #0265dc;
+  color: #f5f8fb;
   margin-bottom: 10px;
   top: 10px;
   left: 10px;
 }
 
 .nft-card__badge--sold-out {
-  background: #EA3829;
+  background: #ea3829;
 }
 
 .nft-card__price {
   font-size: 24px;
   font-weight: bold;
-  color: #F5F8FB;
+  color: #f5f8fb;
   margin-bottom: 10px;
 }
 
 .nft-card__title {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
-  color: #F5F8FB;
+  color: #f5f8fb;
   margin-bottom: 10px;
-}
-
-.catalog__see-all {
-  background: #0265DC;
-  color: #F5F8FB;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.catalog__see-all:hover {
-  background: #0254b3;
+  line-height: 48px;
 }
 
 /* Blog */
 .blog {
   padding: 50px 0;
-  background: #0D0D15;
-  color: #F5F8FB;
+  background: #0d0d15;
+  color: #f5f8fb;
   text-align: center;
 }
 
 .blog__title {
   font-size: 36px;
+  line-height: 48px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -348,7 +332,7 @@ body {
 
 .blog__item {
   display: inline-block;
-  background: #1A1A2E;
+  background: #1a1a2e;
   padding: 20px;
   border-radius: 10px;
   width: calc(33.333% - 20px);
@@ -365,8 +349,8 @@ body {
 .blog__tag {
   display: inline-block;
   padding: 5px 10px;
-  background: #0265DC;
-  color: #F5F8FB;
+  background: #0265dc;
+  color: #f5f8fb;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -377,12 +361,12 @@ body {
 }
 
 .blog__author {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
 .blog__date {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -392,14 +376,14 @@ body {
 }
 
 .blog__excerpt {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 .blog__link {
   text-decoration: none;
-  color: #0265DC;
+  color: #0265dc;
 }
 
 /* Blog Page */
@@ -407,20 +391,20 @@ body {
   display: block;
   padding: 0;
   width: 100%;
-  background: #0D0D15;
+  background: #0d0d15;
 }
 
 .banner__title {
   font-size: 36px;
-  color: #F5F8FB;
+  color: #f5f8fb;
   margin-bottom: 10px;
   background-image: url(src\images\static\our-blog-background.webp);
 }
 
 .banner__breadcrumbs {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
-  color: #F5F8FB;
+  color: #f5f8fb;
 }
 
 .breadcrumbs {
@@ -435,14 +419,14 @@ body {
 }
 
 .breadcrumbs__link {
-  color: #0265DC;
+  color: #0265dc;
   text-decoration: none;
 }
 
 .sidebar {
   padding: 20px;
-  background: #1A1A2E;
-  color: #F5F8FB;
+  background: #1a1a2e;
+  color: #f5f8fb;
   margin-bottom: 20px;
 }
 
@@ -461,24 +445,23 @@ body {
 }
 
 .categories__link {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
-  color: #F5F8FB;
+  color: #f5f8fb;
   text-decoration: none;
 }
 
 .categories__count {
-  color: #0265DC;
+  color: #0265dc;
 }
 
 .blog-post {
-  background: #1A1A2E;
-  color: #F5F8FB;
+  background: #1a1a2e;
+  color: #f5f8fb;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 
 .blog-post__image--primary {
   width: 100%;
@@ -499,7 +482,7 @@ body {
 }
 
 .blog-post__category--gaming {
-  background: #0265DC;
+  background: #0265dc;
   padding: 5px 10px;
   border-radius: 5px;
   margin-top: 10px;
@@ -511,12 +494,12 @@ body {
 }
 
 .blog-post__author--info {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
 .blog-post__date--published {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -534,12 +517,12 @@ body {
 }
 
 .blog-post__paragraph {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
 }
 
 .blog-post__link {
-  color: #0265DC;
+  color: #0265dc;
   text-decoration: none;
 }
 
@@ -547,14 +530,14 @@ body {
   font-size: 24px;
   margin: 20px 0;
   padding: 20px;
-  background: #1A1A2E;
-  border-left: 5px solid #0265DC;
+  background: #1a1a2e;
+  border-left: 5px solid #0265dc;
 }
 
 .blog-post__rating {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
-  color: #0265DC;
+  color: #0265dc;
 }
 
 .blog-post__gallery {
@@ -578,14 +561,14 @@ body {
 }
 
 .blog-post__tags span {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
 .blog-post__tags p {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
-  color: #0265DC;
+  color: #0265dc;
 }
 
 .blog-post__share {
@@ -607,8 +590,8 @@ body {
 /* About Us */
 .about-us {
   padding: 50px 0;
-  background: #0D0D15;
-  color: #F5F8FB;
+  background: #0d0d15;
+  color: #f5f8fb;
 }
 
 .about-us__title {
@@ -618,7 +601,7 @@ body {
 }
 
 .about-us__description {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
   text-align: center;
   margin-bottom: 30px;
@@ -637,7 +620,7 @@ body {
 
 .about-us__list-item {
   display: inline-block;
-  background: #1A1A2E;
+  background: #1a1a2e;
   padding: 20px;
   border-radius: 10px;
   width: calc(25% - 20px);
@@ -647,7 +630,7 @@ body {
 
 .about-us__number {
   font-size: 36px;
-  color: #0265DC;
+  color: #0265dc;
   margin-bottom: 10px;
 }
 
@@ -657,15 +640,15 @@ body {
 }
 
 .about-us__list-item-description {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
 }
 
 /* Team */
 .team {
   padding: 50px 0;
-  background: #0D0D15;
-  color: #F5F8FB;
+  background: #0d0d15;
+  color: #f5f8fb;
 }
 
 .team__title {
@@ -676,7 +659,7 @@ body {
 
 .team-card {
   display: inline-block;
-  background: #1A1A2E;
+  background: #1a1a2e;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -698,7 +681,7 @@ body {
 }
 
 .team-card__role {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -721,8 +704,8 @@ body {
 /* FAQ */
 .faq {
   padding: 50px 0;
-  background: #0D0D15;
-  color: #F5F8FB;
+  background: #0d0d15;
+  color: #f5f8fb;
 }
 
 .faq__title {
@@ -737,7 +720,7 @@ body {
 }
 
 .faq__item {
-  background: #1A1A2E;
+  background: #1a1a2e;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -749,7 +732,7 @@ body {
 }
 
 .faq__answer {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -757,7 +740,7 @@ body {
 /* Footer */
 .footer {
   background: rgba(26, 25, 37, 1);
-  color: #F5F8FB;
+  color: #f5f8fb;
   padding: 50px 0;
   text-align: center;
 }
@@ -767,7 +750,7 @@ body {
 }
 
 .footer__tagline {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
   margin-top: 10px;
 }
@@ -798,9 +781,9 @@ body {
 }
 
 .footer__nav-link {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
-  color: #F5F8FB;
+  color: #f5f8fb;
   text-decoration: none;
 }
 
@@ -810,7 +793,7 @@ body {
 }
 
 .footer__copyright {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
 }
 
