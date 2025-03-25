@@ -21,7 +21,8 @@ body {
 
 /* Header */
 .header {
-  width: 1728px;
+  max-width: 100%;
+  width: auto;
   height: 112px;
   display: flex;
   justify-content: space-between;
@@ -163,8 +164,8 @@ body {
 }
 
 .banner__image {
-  width: 533.499267578125px;
-  height: 641.8035888671875px;
+  width: 533.5px;
+  height: 641.8px;
   top: -0.9px;
   left: 1030.5px;
 }
@@ -176,13 +177,13 @@ body {
 }
 
 .banner__title {
-  background-image: url(src\images\static\our-blog-background.webp);
+  background-image: url(src/images/static/our-blog-background.webp);
 }
 
 /* Button Styles */
 .button {
   display: inline-block;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
