@@ -4,12 +4,8 @@
 
 {% block content %}
 {% include "partials/header.njk" %}
-<h1>Welcome to the Index Page</h1>
-<p>Here is some dynamic content:</p>
-<ul>
-    {% for item in items %}
-        <li>{{ item }}</li>
-    {% endfor %}
-</ul>
+
+{% include "partials/nft-cards.njk" }
+
 {% include "partials/footer.njk" %}
 {% endblock %}
