@@ -3,6 +3,7 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
+{% include "partials/header.njk" %}
 <h1>Welcome to the Index Page</h1>
 <p>Here is some dynamic content:</p>
 <ul>
@@ -10,4 +11,5 @@
         <li>{{ item }}</li>
     {% endfor %}
 </ul>
+{% include "partials/footer.njk" %}
 {% endblock %}
