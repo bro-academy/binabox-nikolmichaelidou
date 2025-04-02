@@ -1,12 +1,21 @@
 {
   "NFT card": {
     "title": "Product Name",
-    "price": "Product Price",
-    "description": "Product Description"
-  },
-  "NFT card 2": {
-    "title": "Product Name 2",
-    "price": "Product Price 2",
-    "description": "Product Description 2"
+    "cards": [
+      {
+        "label": "New",
+        "state": "new",
+        "price": "199",
+        "name": "Name product",
+        "image": "src\\images\\static\\nft-card-cat.webp"
+      },
+      {
+        "label": "Sold out",
+        "state": "new",
+        "price": "299",
+        "name": "Name Product",
+        "image": ""
+      }
+    ]
   }
 }

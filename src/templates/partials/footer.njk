@@ -31,6 +31,18 @@
       <div>
         <p>BINABOX 2022 - ALL rights reserved</p>
         <div>
+          {% set socialLinks = [
+            { href: "#", src: "src\\images\\static\\icons\\twitter-icon.webp", alt: "Twitter" },
+            { href: "#", src: "src\\images\\static\\icons\\facebook-icon.webp", alt: "Facebook" },
+            { href: "#", src: "src\\images\\static\\icons\\telegram-icon.webp", alt: "Telegram" },
+            { href: "#", src: "src\\images\\static\\icons\\youtobe-icon.webp", alt: "YouTube" },
+            { href: "#", src: "src\\images\\static\\icons\\tiktok-icon.webp", alt: "TikTok" },
+            { href: "#", src: "src\\images\\static\\icons\\discord-icon.webp", alt: "Discord" }
+          ] %}
+          {% for link in socialLinks %}
+            <a href="{{ link.href }}"><img src="{{ link.src }}" alt="{{ link.alt }}" /></a>
+          {% endfor %}
+        </div>
           <a href="#"><img src="src\images\static\icons\twitter-icon.webp" alt="Twitter" /></a>
           <a href="#"><img src="src\images\static\icons\facebook-icon.webp" alt="Facebook" /></a>
           <a href="#"><img src="src\images\static\icons\telegram-icon.webp" alt="Telegram" /></a>
