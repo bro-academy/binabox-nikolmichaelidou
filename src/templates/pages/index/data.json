@@ -1,22 +1,94 @@
 {
-  "NFT card": {
-    "title": "Product Name",
-    "cards": [
-      {
-        "label": "New",
-        "state": "new",
-        "price": "199",
-        "name": "Name product",
-        "image": "src\\images\\static\\nft-card-cat.webp"
+        "catalog": {
+      "header": {
+        "title": "Catalog",
+        "controls": {
+          "viewAll": {
+            "href": "#",
+            "text": "SEE ALL",
+            "class": "button button--secondary"
+          },
+          "navigation": {
+            "prevButton": {
+              "class": "button button--secondary",
+              "text": "←"
+            },
+            "nextButton": {
+              "class": "button button--primary",
+              "text": "→"
+            }
+          }
+        }
       },
-      {
-        "label": "Sold out",
-        "state": "new",
-        "price": "299",
-        "name": "Name Product",
-        "image": ""
-      }
-    ]
+      "grid": {
+        "nftList": [
+          {
+            "link": "#",
+            "image": {
+              "src": "src/images/static/nft-card-skeleton.webp",
+              "alt": "NFT Item 1"
+            },
+            "badge": {
+              "class": "nft-card__badge nft-card__badge--new",
+              "text": "NEW"
+            },
+            "price": "$199",
+            "title": "NAME PRODUCT"
+          },
+          {
+            "link": "#",
+            "image": {
+              "src": "src/images/static/nft-card-cat.webp",
+              "alt": "NFT Item 2"
+            },
+            "badge": {
+              "class": "nft-card__badge nft-card__badge--new",
+              "text": "NEW"
+            },
+            "price": "$199",
+            "title": "NAME PRODUCT"
+          },
+          {
+            "link": "#",
+            "image": {
+              "src": "src/images/static/nft-card-scissors.webp",
+              "alt": "NFT Item 3"
+            },
+            "badge": {
+              "class": "nft-card__badge nft-card__badge--sold-out",
+              "text": "SOLD OUT"
+            },
+            "price": "$199",
+            "title": "NAME PRODUCT"
+          },
+          {
+            "link": "#",
+            "image": {
+              "src": "src/images/static/nft-card-token.webp",
+              "alt": "NFT Item 4"
+            },
+            "badge": {
+              "class": "nft-card__badge nft-card__badge--new",
+              "text": "NEW"
+            },
+            "price": "$199",
+            "title": "NAME PRODUCT"
+          },
+          {
+            "link": "#",
+            "image": {
+              "src": "src/images/static/nft-card-handheld.webp",
+              "alt": "NFT Item 5"
+            },
+            "badge": {
+              "class": "nft-card__badge nft-card__badge--new",
+              "text": "NEW"
+            },
+            "price": "$199",
+            "title": "NAME PRODUCT"
+          ]
+        }
+    }
   },
   "socialLinks": [
     { "href": "#", "src": "src\\images\\static\\icons\\twitter-icon.webp", "alt": "Twitter" },
@@ -26,4 +98,4 @@
     { "href": "#", "src": "src\\images\\static\\icons\\tiktok-icon.webp", "alt": "TikTok" },
     { "href": "#", "src": "src\\images\\static\\icons\\discord-icon.webp", "alt": "Discord" }
   ]
-}
+   

@@ -1,28 +1,35 @@
-<section>
-    <div>
-      <h2>Catalog</h2>
-      <div>
-        <a href="#">SEE ALL</a>
-        <div>
-          <button>&#8592;</button>
-          <button>&#8594;</button>
-        </div>
+<html>
+<body>
+<div class="catalog">
+  <div class="catalog__header">
+    <h2>{{ catalog.header.title }}</h2>
+    <div class="catalog__controls">
+      <a href="{{ catalog.header.controls.viewAll.href }}" class="{{ catalog.header.controls.viewAll.class }}">
+        {{ catalog.header.controls.viewAll.text }}
+      </a>
+      <div class="catalog__navigation">
+        <button class="{{ catalog.header.controls.navigation.prevButton.class }}">
+          {{ catalog.header.controls.navigation.prevButton.text }}
+        </button>
+        <button class="{{ catalog.header.controls.navigation.nextButton.class }}">
+          {{ catalog.header.controls.navigation.nextButton.text }}
+        </button>
       </div>
     </div>
-    <div>
-      <ul>
-        {% for nft in nftCards %}
-        <li>
-          <a href="#">
-            <article>
-              <img src="{{ nft.image }}" alt="{{ nft.alt }}">
-              <span>{{ nft.status }}</span>
-              <p>{{ nft.price }}</p>
-              <h3>{{ nft.name }}</h3>
-            </article>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-</section>
+  </div>
+  <div class="catalog__grid">
+    {% for nft in catalog.grid.nftList %}
+      <div class="nft-card">
+        <a href="{{ nft.link }}">
+          <img src="{{ nft.image.src }}" alt="{{ nft.image.alt }}" />
+        </a>
+        <div class="{{ nft.badge.class }}">{{ nft.badge.text }}</div>
+        <div class="nft-card__details">
+          <h3>{{ nft.title }}</h3>
+          <p>{{ nft.price }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+</html>
