@@ -1,0 +1,10 @@
+<htm>
+<head>
+<body>
+
+{% for link in socialLinks %}
+            <a href="{{ link.href }}"><img src="{{ link.src }}" alt="{{ link.alt }}" /></a>
+          {% endfor %}
+<body>
+</head>
+</html>
