@@ -1,16 +1,16 @@
-<header>
-  <a href="{{ baseUrl }}/index.html">
-    <img src="{{ baseUrl }}/src/images/static/binabox-logo.webp" alt="Binabox Logo" />
+<header class="header">
+  <a href="{{ baseUrl }}/index.html" class="logo">
+    <img src="{{ baseUrl }}/src/images/static/binabox-logo.webp" alt="Binabox Logo" class="logo__image" />
   </a>
-  <nav>
-    <ul>
-      <li><a href="{{ baseUrl }}/index.html">Home</a></li>
-      <li><a href="{{ baseUrl }}/blog.html">Blog</a></li>
-      <li><a href="#">Catalog</a></li>
-      <li><a href="#">Collection</a></li>
+  <nav class="main-nav">
+    <ul class="main-nav__list">
+      <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/index.html">Home</a></li>
+      <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/blog.html">Blog</a></li>
+      <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
+      <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
     </ul>
-    <input type="search" placeholder="Search..." />
-    <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-    <a href="#" target="_blank" rel="noopener noreferrer">Connect</a>
+    <input class="search" type="search" placeholder="Search..." />
+    <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+    <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
   </nav>
 </header>

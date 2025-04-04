@@ -1,15 +1,13 @@
-{% extends "layouts/base.njk" %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles/global.scss/style.scss" />
-    <title>Contact Us</title>
-</head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="src\styles\global.scss\style.scss">
+    <link rel="stylesheet" href="src\styles\pages\contactpage.scss">
+</head>
 <body>
-{% block title %}Contact Us{% endblock %}
-{% block content %}
-{% include "partials/header.njk" %}
     <div class="form-container">
         <h1>Get in touch</h1>
         <p>Browse through the most frequently asked questions</p>
@@ -58,7 +56,6 @@
     </div>
 </body>
 </html>
-{% include "partials/footer.njk" %}
-{% endblock %}
-</body>
-</html>
+
+<!-- Compare this snippet from src/styles/contactpage.scss: -->
+/* contactpage.scss */  
