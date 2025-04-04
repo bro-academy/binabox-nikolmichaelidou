@@ -1,10 +1,15 @@
-{% block title %}Default Title{% endblock %}
-
+<html>
+<head>
+    <title>{% block title %}Binabox{% endblock %}</title>
+    <link href="/src/styles/global.scss/style.scss" rel="stylesheet" />
+</head>
+<body>
     {% include "partials/header.njk" %}
     
+    {% block content %}
     
-        {% block content %}
-        
-        {% endblock %}
+    {% endblock %}
     
     {% include "partials/footer.njk" %}
+</body>
+</html>
