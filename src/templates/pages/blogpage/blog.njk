@@ -2,6 +2,158 @@
 
 {% block title %}Our Blog{% endblock %}
 
+<aside class="sidebar">
+  <nav class="categories">
+    <h3 class="categories__title">Categories</h3>
+    <ul class="categories__list">
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Our blog <span class="categories__count">(12)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Metaverse <span class="categories__count">(24)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Gaming <span class="categories__count">(24)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Art <span class="categories__count">(24)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Robot <span class="categories__count">(24)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Launchpad <span class="categories__count">(24)</span>
+        </a>
+      </li>
+      <li class="categories__item">
+        <a href="#" class="categories__link">
+          Crypto <span class="categories__count">(410)</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
 {% block content %}
-{% include "partials/header.njk" %}
-{% endblock %}
+  <main>
+    <aside class="sidebar">
+      <nav class="categories">
+        <h3 class="categories__title">Categories</h3>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Our blog <span class="categories__count">(12)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Metaverse <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Gaming <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Art <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Robot <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Launchpad <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Crypto <span class="categories__count">(410)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <article class="blog-post glass-card">
+      <div class="blog-post__header">
+        <img class="blog-post__image blog-post__image--primary" src="{{ blogPost.header.image.src }}" alt="{{ blogPost.header.image.alt }}" />
+        <p class="blog-post__caption blog-post__caption--overlay glass-text">{{ blogPost.header.caption }}</p>
+        <h1 class="blog-post__title blog-post__title--main">{{ blogPost.header.title }}</h1>
+        <span class="blog-post__category {{ blogPost.header.category.class }}">{{ blogPost.header.category.text }}</span>
+        <div class="blog-post__meta blog-post__meta--header glass-panel">
+          <p class="blog-post__author blog-post__author--info">
+            <strong class="blog-post__author-name">{{ blogPost.header.meta.author.name }}</strong>
+            <time class="blog-post__date blog-post__date--published" datetime="{{ blogPost.header.meta.date.published }}">{{ blogPost.header.meta.date.formatted }}</time>
+          </p>
+        </div>
+      </div>
+
+      <div class="blog-post__content blog-post__content--main glass-panel">
+        <ul class="blog-post__description blog-post__description--list">
+          {% for content in blogPost.content %}
+          <li class="blog-post__description-item">
+            <p class="blog-post__paragraph">
+              {{ content.paragraph | safe }}
+              {% if content.links %}
+                {% for link in content.links %}
+                  <a class="blog-post__link" href="{{ link.href }}">{{ link.text }}</a>
+                {% endfor %}
+              {% endif %}
+            </p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <blockquote class="blog-post__quote glass-panel">
+        <p>{{ blogPost.quote.text }}</p>
+        <span class="blog-post__rating">{{ blogPost.quote.rating }}</span>
+      </blockquote>
+
+      <div class="blog-post__gallery glass-grid">
+        {% for galleryItem in blogPost.gallery %}
+        <figure>
+          <img src="{{ galleryItem.image.src }}" alt="{{ galleryItem.image.alt }}" />
+          <figcaption>{{ galleryItem.caption }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+
+      <div class="blog-post__footer glass-panel">
+        <div class="blog-post__tags">
+          <span>Tags: </span>
+          {% for tag in blogPost.footer.tags %}
+          <a href="#" class="glass-tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+
+        <div class="blog-post__share glass-panel">
+          <p>{{ blogPost.footer.share.text }}</p>
+          <div class="blog-post__social-links">
+            {% for social in blogPost.footer.share.socialLinks %}
+            <a href="{{ social.href }}" class="glass-icon">
+              <img src="{{ social.icon.src }}" alt="{{ social.icon.alt }}" />
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  {% endblock %}
