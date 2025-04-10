@@ -35,3 +35,22 @@
       opacity: 0.8;
     }
 }
+
+// Mixin for link styles
+@mixin link-style($color: rgb(120, 187, 250), $hover-color: rgb(56, 146, 243), $focus-outline-color: rgb(56, 146, 243), $focus-outline-width: 5px) {
+  color: $color;
+  text-decoration: none;
+
+  &:hover {
+    color: $hover-color;
+  }
+
+  &:focus {
+    outline: $focus-outline-width solid $focus-outline-color;
+  }
+}
+
+// Example usage
+a {
+  @include link-style();
+}
