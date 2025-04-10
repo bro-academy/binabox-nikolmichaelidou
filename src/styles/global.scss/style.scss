@@ -1,9 +1,11 @@
+@import 'global.scss/variables';
+
 body {
   font-size: 16px;
   line-height: 1.5;
-  color: #f5f8fb;
+  color: $color-text-primary;
   font-family: "Bakbak One", Arial, sans-serif;
-  background: #0d0d15;
+  background: $color-background;
 }
 
 /* Bakbak One for headings */
@@ -193,10 +195,10 @@ body {
 //   color: #ffffff;
 // }
 
-// .button--primary {
-//   background: #0265dc;
-//   color: #ffffff;
-// }
+.button--primary {
+  background: $color-primary;
+  color: $color-text-highlight;
+}
 
 // .button--secondary {
 //   background: rgba(208, 215, 251, 0);
