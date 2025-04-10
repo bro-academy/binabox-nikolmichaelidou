@@ -11,11 +11,11 @@
 }
 
 .banner__highlight {
-    color: #0265DC;
+    color: $color-primary;
 }
 
 .banner__text {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: $font-primary;
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.5;
