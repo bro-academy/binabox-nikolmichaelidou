@@ -1,0 +1,24 @@
+<!-- Blog Section -->
+<section class="blog">
+    <h2 class="blog__title">Our blog</h2>
+    <div class="blog__container">
+        <ul class="blog__list">
+            {% for post in blogPosts %}
+            <li class="blog__item">
+                <img src="{{ post.image }}" height="{{ post.imageHeight }}" width="{{ post.imageWidth }}" alt="{{ post.alt }}"
+                    class="blog__image" />
+                <span class="blog__tag">{{ post.tag }}</span>
+                <div class="blog__meta">
+                    <p class="blog__author">{{ post.author }}</p>
+                    <time datetime="{{ post.dateISO }}" class="blog__date">{{ post.date }}</time>
+                </div>
+                <h3 class="blog__post-title">{{ post.title }}</h3>
+                <p class="blog__excerpt">
+                    {{ post.excerpt }}
+                </p>
+                <a href="{{ post.link }}" target="_blank" class="blog__link">READMORE</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
