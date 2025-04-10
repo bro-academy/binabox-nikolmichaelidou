@@ -1,4 +1,5 @@
 @import 'global.scss/variables';
+@import 'global.scss/mixins';
 
 body {
   font-size: 16px;
@@ -45,7 +46,6 @@ body {
 }
 
 /* Navigation */
-
 .main-nav {
   width: 401px;
   height: 40px;
@@ -55,61 +55,41 @@ body {
 
 .main-nav__list {
   width: 89px;
-  /* Fixed missing unit */
   height: 40px;
   gap: 8px;
-  padding-top: 8px;
-  padding-right: 20px;
-  padding-bottom: 8px;
-  padding-left: 20px;
+  padding: 8px 20px;
   border-bottom-width: 2px;
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0;
 }
 
 .main-nav__link {
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: #f5f8fb;
+  color: $color-text-highlight;
   text-decoration: none;
   padding: 10px 15px;
-  width: 49px;
-  height: 24px;
-  line-height: 24px;
-  letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
-  font-weight: 500;
-}
 
-.main-nav__link:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .main-nav__list-item {
   margin-right: 20px;
 }
 
-/* .main-nav__list-item {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #F5F8FB;
-  margin-right: 20px;
-} DO NOT DUPLICATE STYLES. IF YOU DO NOT HAVE TEXT CONTENT INSIDE THE TAG/SELECTOR */
-
 .search {
   padding: 5px;
   margin-right: 20px;
-  border: 1px solid #333;
+  border: 1px solid $color-secondary;
   border-radius: 4px;
-  background-color: #2c2c2c;
-  color: #ffffff;
+  background-color: $color-secondary;
+  color: $color-text-highlight;
 }
 
 /* Hero Banner */
@@ -118,10 +98,10 @@ body {
   height: 362px;
   background: radial-gradient(
       44.91% 42.19% at 22% -4%,
-      rgba(2, 101, 220, 0.5),
+      $color-primary-light,
       rgba(2, 101, 220, 0) 100%
     ),
-    rgb(13, 13, 21);
+    $color-background;
 }
 
 .banner__heading {
@@ -131,7 +111,7 @@ body {
 }
 
 .banner__highlight {
-  color: #0265dc;
+  color: $color-primary;
 }
 
 .banner__text {
@@ -149,77 +129,42 @@ body {
 
 .banner__stat-label {
   font-family: "Poppins", Arial, sans-serif;
-  width: 95px;
-  height: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0px;
-  vertical-align: bottom;
 }
 
 .banner__stat-value {
-  box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 4px 13px 0px $color-shadow-light;
   font-size: 52px;
   line-height: 62px;
-  letter-spacing: -0.5px;
-  vertical-align: bottom;
 }
 
 .banner__image {
   width: 533.5px;
   height: 641.8px;
-  top: -0.9px;
-  left: 1030.5px;
 }
 
 .banner__button-group {
-  width: 866.500732421875px;
+  width: 866.5px;
   height: 48px;
   gap: 16px;
 }
 
-.banner__title {
-  background-image: url(src/images/static/our-blog-background.webp);
-}
-
-// /* Button Styles */
-// .button {
-//   display: inline-block;
-//   font-family: "Poppins", Arial, sans-serif;
-//   font-weight: 600;
-//   font-size: 16px;
-//   line-height: 1.5;
-//   text-decoration: none;
-//   padding: 8px 20px;
-//   color: #ffffff;
-// }
-
+/* Button Styles */
 .button--primary {
-  background: $color-primary;
-  color: $color-text-highlight;
+  @include button-primary($color-primary, $color-text-highlight);
 }
 
-// .button--secondary {
-//   background: rgba(208, 215, 251, 0);
-//   border: 2px solid rgba(208, 215, 251, 0.17);
-//   margin: 0 10px;
-//   padding: 10px 20px;
-//   background-color: #333;
-//   color: #ffffff;
-// }
-
-// .button--secondary:hover,
-// .button--primary:hover {
-//   background: #3892f3;
-// }
+.button--secondary {
+  @include button-secondary($color-secondary-light, $color-secondary-border, $color-text-highlight);
+}
 
 /* Catalog */
 .catalog {
   padding: 50px 0;
-  background: #0d0d15;
-  color: #f5f8fb;
-  display: inline-block;
+  background: $color-background;
+  color: $color-text-primary;
 }
 
 .catalog__header {
@@ -228,7 +173,7 @@ body {
 }
 
 .catalog__title {
-  color: #f8f7ff;
+  color: $color-text-secondary;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
