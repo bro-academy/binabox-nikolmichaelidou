@@ -2,40 +2,40 @@
 @import 'global.scss/mixins';
 
 body {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
   color: $color-text-primary;
-  font-family: "Bakbak One", Arial, sans-serif;
+  font-family: $font-family-headings;
   background: $color-background;
 }
 
 /* Bakbak One for headings */
 .bakbak-one-regular {
-  font-weight: 400;
+  font-weight: $font-weight-regular;
   font-style: normal;
 }
 
 /* Poppins for body text */
 .poppins-medium {
-  font-family: "Poppins", Arial, sans-serif;
-  font-weight: 500;
+  font-family: $font-family-body;
+  font-weight: $font-weight-medium;
   font-style: normal;
 }
 
 /* Header */
 .header {
+  width: 173px;
+  height: 112px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  line-height: 24px;
+  padding: 32px;
+  background: $color-background;
 }
 
 .logo {
   display: flex;
   align-items: center;
 }
-
 .logo img {
   width: 188px;
   height: 42px;
