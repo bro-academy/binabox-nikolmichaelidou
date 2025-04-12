@@ -9,7 +9,10 @@
       <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
       <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
     </ul>
-    <input class="search" type="search" placeholder="Search..." />
+    <form action="/search" method="get" class="search-form">
+      <input class="search" type="search" name="q" placeholder="Search..." aria-label="Search" required />
+      <button type="submit" class="button button--primary">Search</button>
+    </form>
     <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
     <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
   </nav>

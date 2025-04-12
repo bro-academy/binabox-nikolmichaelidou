@@ -43,6 +43,22 @@
       </li>
     </ul>
   </nav>
+
+  <!-- Add Sort by Dropdown -->
+  <div class="sidebar__sort">
+    <label for="sort" class="sidebar__label">Sort by:</label>
+    <select id="sort" name="sort" class="sidebar__select">
+      <option value="recent">Most Recent</option>
+      <option value="popular">Most Popular</option>
+      <option value="comments">Most Commented</option>
+    </select>
+  </div>
+
+  <!-- Add Search Bar -->
+  <form action="/blog" method="get" class="sidebar__search-form">
+    <input type="search" name="q" class="sidebar__search-input" placeholder="Search blog..." aria-label="Search blog" required />
+    <button type="submit" class="sidebar__search-button">Search</button>
+  </form>
 </aside>
 
 {% block content %}
@@ -88,6 +104,22 @@
           </li>
         </ul>
       </nav>
+
+      <!-- Add Sort by Dropdown -->
+      <div class="sidebar__sort">
+        <label for="sort" class="sidebar__label">Sort by:</label>
+        <select id="sort" name="sort" class="sidebar__select">
+          <option value="recent">Most Recent</option>
+          <option value="popular">Most Popular</option>
+          <option value="comments">Most Commented</option>
+        </select>
+      </div>
+
+      <!-- Add Search Bar -->
+      <form action="/blog" method="get" class="sidebar__search-form">
+        <input type="search" name="q" class="sidebar__search-input" placeholder="Search blog..." aria-label="Search blog" required />
+        <button type="submit" class="sidebar__search-button">Search</button>
+      </form>
     </aside>
 
     <article class="blog-post glass-card">

@@ -1,7 +1,46 @@
 .sidebar {
-    padding: 20px;
-    background: #1A1A2E;
-    color: #F5F8FB;
-    margin-bottom: 20px;
-    position: relative;
+  padding: 20px;
+  background: #1a1a2e;
+  color: #f5f8fb;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.sidebar__sort {
+  margin-top: 20px;
+}
+
+.sidebar__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #f5f8fb;
+}
+
+.sidebar__select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sidebar__search-form {
+  margin-top: 20px;
+}
+
+.sidebar__search-input {
+  width: calc(100% - 40px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1a1a2e;
+  color: #f5f8fb;
+}
+
+.sidebar__search-button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
