@@ -1,5 +1,8 @@
-@import './variables';
-@import './mixins';
+@import "src/styles/global/variables.scss";
+@import "src/styles/global/mixins.scss";
+@import "src/styles/pages/blog.scss";
+@import "src/styles/pages/index.scss";
+@import "src/styles/pages/contactpage.scss";
 
 body {
   font-size: $font-size-body;
@@ -157,7 +160,11 @@ body {
 }
 
 .button--secondary {
-  @include button-secondary($color-secondary-light, $color-secondary-border, $color-text-highlight);
+  @include button-secondary(
+    $color-secondary-light,
+    $color-secondary-border,
+    $color-text-highlight
+  );
 }
 
 /* Catalog */
