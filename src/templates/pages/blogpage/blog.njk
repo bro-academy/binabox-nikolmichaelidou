@@ -2,64 +2,7 @@
 
 {% block title %}Our Blog{% endblock %}
 
-<aside class="sidebar">
-  <nav class="categories">
-    <h3 class="categories__title">Categories</h3>
-    <ul class="categories__list">
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Our blog <span class="categories__count">(12)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Metaverse <span class="categories__count">(24)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Gaming <span class="categories__count">(24)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Art <span class="categories__count">(24)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Robot <span class="categories__count">(24)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Launchpad <span class="categories__count">(24)</span>
-        </a>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link">
-          Crypto <span class="categories__count">(410)</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Add Sort by Dropdown -->
-  <div class="sidebar__sort">
-    <label for="sort" class="sidebar__label">Sort by:</label>
-    <select id="sort" name="sort" class="sidebar__select">
-      <option value="recent">Most Recent</option>
-      <option value="popular">Most Popular</option>
-      <option value="comments">Most Commented</option>
-    </select>
-  </div>
-
-  <!-- Add Search Bar -->
-  <form action="/blog" method="get" class="sidebar__search-form">
-    <input type="search" name="q" class="sidebar__search-input" placeholder="Search blog..." aria-label="Search blog" required />
-    <button type="submit" class="sidebar__search-button">Search</button>
-  </form>
-</aside>
+<!-- Sidebar removed to avoid duplication -->
 
 {% block content %}
   <main>
