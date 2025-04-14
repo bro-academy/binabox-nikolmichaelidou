@@ -804,3 +804,48 @@ a:focus {
   outline: 4px solid rgb(56, 146, 243);
   outline-width: 5px;
 }
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $color-secondary;
+  border-radius: 4px;
+  background-color: $color-background;
+  color: $color-text-primary;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid $color-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: $color-primary;
+  color: $color-text-highlight;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+  background-color: darken($color-primary, 10%);
+}
+
+/* Validation states */
+input:invalid, textarea:invalid, select:invalid {
+  border-color: $color-error;
+}
+
+input:valid, textarea:valid, select:valid {
+  border-color: $color-success;
+}

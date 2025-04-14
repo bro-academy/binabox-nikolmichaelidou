@@ -9,6 +9,12 @@
       <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
       <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
     </ul>
+    <div class="header__search">
+      <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search" required aria-label="Search" class="search__input" />
+        <button type="submit" class="search__button">Search</button>
+      </form>
+    </div>
     <form action="/search" method="get" class="search-form">
       <input class="search" type="search" name="q" placeholder="Search..." aria-label="Search" required />
       <button type="submit" class="button button--primary">Search</button>
