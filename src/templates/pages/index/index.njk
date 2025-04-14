@@ -3,8 +3,24 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-
-{% include "partials/banner.njk" %}
-{% include "partials/nft-cards.njk" %}
-{% include "partials/blog-section-index.njk" %}
+<div class="page-layout">
+    <header class="header">
+        {% include "partials/header.njk" %}
+    </header>
+    <section class="banner">
+        {% include "partials/banner.njk" %}
+    </section>
+    <section class="catalog">
+        {% include "partials/nft-cards.njk" %}
+    </section>
+    <section class="blog">
+        {% include "partials/blog-section-index.njk" %}
+    </section>
+    <section class="team">
+        {% include "partials/team.njk" %}
+    </section>
+    <footer class="footer">
+        {% include "partials/footer.njk" %}
+    </footer>
+</div>
 {% endblock %}
