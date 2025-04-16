@@ -1,0 +1,24 @@
+<aside class="catalog__sidebar">
+    <form action="/filter" method="GET">
+        <fieldset>
+            <legend>Clothing</legend>
+            <label><input type="checkbox" name="clothing" value="combination" /> Combination</label>
+            <label><input type="checkbox" name="clothing" value="king" /> King</label>
+            <label><input type="checkbox" name="clothing" value="queen" /> Queen</label>
+        </fieldset>
+        <button type="submit" class="button button--primary">Apply</button>
+    </form>
+</aside>
+
+<div class="catalog__controls">
+    <form action="/sort" method="GET">
+        <label for="sort-by">Sort by</label>
+        <select id="sort-by" name="sort" required>
+            <option value="newest">Newest</option>
+            <option value="popular">Most Popular</option>
+            <option value="price-asc">Increasing in Price</option>
+            <option value="price-desc">Lowering in Price</option>
+        </select>
+        <button type="submit" class="button button--secondary">Sort</button>
+    </form>
+</div>

@@ -3,7 +3,18 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-
-{% include "partials/nft-cards.njk" }
-
+<div class="page-layout">
+    <section class="banner">
+        {% include "partials/banner.njk" %}
+    </section>
+    <section class="catalog">
+        {% include "partials/nft-cards.njk" %}
+    </section>
+    <section class="blog">
+        {% include "partials/blog-section-index.njk" %}
+    </section>
+    { <section class="team">
+        {% include "partials/team-card.njk" %}
+    </section>}
+</div>
 {% endblock %}

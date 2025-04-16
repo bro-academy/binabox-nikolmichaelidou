@@ -1,3 +1,39 @@
 <footer>
-    <p>&copy; 2025 Binabox. All rights reserved.</p>
-</footer>
+      <div>
+        <a href="index.html">
+          <img src="src/images/static/binabox-logo.webp" alt="Binabox Logo" />
+        </a>
+        <p>We are the best way to check the rarity of NFT collection.</p>
+      </div>
+
+      <nav>
+        <div>
+          <h2>Subscribe</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Company</h2>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Whitepaper</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <p>BINABOX 2022 - ALL rights reserved</p>
+        <div>
+          {% for link in socialLinks %}
+            <a href="{{ link.href }}"><img src="{{ link.src }}" alt="{{ link.alt }}" /></a>
+          {% endfor %}
+        </div>
+      </div>
+    </footer>
