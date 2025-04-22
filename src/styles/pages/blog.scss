@@ -4,6 +4,8 @@
   color: #f5f8fb;
   margin-bottom: 20px;
   position: relative;
+  flex: 1 1 25%;
+  max-width: 300px;
 }
 
 .sidebar__sort {
@@ -43,4 +45,28 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.blog-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-main {
+  flex: 3 1 70%;
+}
+
+@media (max-width: 768px) {
+  .blog-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    max-width: 100%;
+  }
+
+  .blog-main {
+    max-width: 100%;
+  }
 }
