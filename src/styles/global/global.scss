@@ -1,26 +1,13 @@
 @import "src/styles/global/variables.scss";
 @import "src/styles/global/mixins.scss";
 
+// Limit global.scss to base tag styles only
 body {
   margin: 0;
-  font-size: $font-size-body;
-  line-height: $line-height-body;
-  color: $color-text-primary;
-  font-family: $font-family-headings;
-  background: $color-background;
 }
 
 a {
   text-decoration: none;
-  color: $color-link;
-
-  &:hover {
-    color: $color-link-hover;
-  }
-
-  &:focus {
-    outline: 4px solid $color-link-focus-outline;
-  }
 }
 
 img {
