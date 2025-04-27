@@ -10,8 +10,10 @@
     <section class="blog">
         {% include "partials/blog-section-index.njk" %}
     </section>
-    { <section class="team">
-        {% include "partials/team-card.njk" %}
-    </section>}
+    <section class="team">
+        {% for member in teamMembers %}
+            {% include "partials/team-card.njk" with member %}
+        {% endfor %}
+    </section>
 </div>
 {% endblock %}
