@@ -14,9 +14,10 @@
         {% include "partials/blog-section-index.njk" %}
     </section>
     <section class="team">
+        <h2>Meet Our Team</h2>
         {% for member in teamMembers %}
             {% include "partials/team-card.njk" with member %}
         {% endfor %}
-    </section>
+    </section> 
 </div>
 {% endblock %}
