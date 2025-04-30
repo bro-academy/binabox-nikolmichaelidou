@@ -1,5 +1,5 @@
-@import "src/styles/global/variables.scss";
-@import "src/styles/global/mixins.scss";
+@use './variables.scss';
+@use './mixins.scss';
 
 // Limit global.scss to base tag styles only
 body {

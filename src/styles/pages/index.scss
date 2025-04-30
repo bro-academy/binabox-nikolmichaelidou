@@ -1,10 +1,10 @@
-@import 'src/styles/global/variables.scss';
-@import 'src/styles/global/mixins.scss';
-@import 'src/styles/global/global.scss';
-@import '../../components/banner.scss';
-@import '../../components/catalog.scss';
-@import '../../components/blog.scss';
-@import '../../components/team.scss';
+@use '../global/variables';
+@use '../global/mixins';
+@use '../global/global';
+@use '../components/banner';
+@use '../components/catalog';
+@use '../components/blog';
+@use '../components/team';
 
 .banner {
     width: 866.5px;
