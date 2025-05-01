@@ -4,6 +4,11 @@
   </a>
   <nav class="main-nav">
     <ul class="main-nav__list">
+      {% for item in ['Home', 'Blog', 'Catalog', 'Collection'] %}
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="{{ baseUrl }}/{{ item | lower | replace(' ', '-') }}.html">{{ item }}</a>
+      </li>
+      {% endfor %}
       <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/index.html">Home</a></li>
       <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/blog.html">Blog</a></li>
       <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
