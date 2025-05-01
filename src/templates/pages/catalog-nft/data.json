@@ -1,0 +1,97 @@
+{
+  "catalog": {
+    "header": {
+      "title": "Catalog",
+      "controls": {
+        "viewAll": {
+          "href": "#",
+          "text": "SEE ALL"
+        },
+        "navigation": {
+          "prevButton": {
+            "class": "button button--secondary",
+            "text": "←"
+          },
+          "nextButton": {
+            "class": "button button--primary",
+            "text": "→"
+          }
+        }
+      }
+    },
+    "grid": {
+      "nftList": [
+        {
+          "link": "#",
+          "image": {
+            "src": "src/images/static/nft-card-skeleton.webp",
+            "alt": "NFT Item 1"
+          },
+          "badge": {
+            "label": "NEW",
+            "state": "new",
+            "text": "NEW"
+          },
+          "price": "$199",
+          "title": "NAME PRODUCT"
+        },
+        {
+          "link": "#",
+          "image": {
+            "src": "src/images/static/nft-card-cat.webp",
+            "alt": "NFT Item 2"
+          },
+          "badge": {
+            "label": "NEW",
+            "state": "new",
+            "text": "NEW"
+          },
+          "price": "$199",
+          "title": "NAME PRODUCT"
+        },
+        {
+          "link": "#",
+          "image": {
+            "src": "src/images/static/nft-card-scissors.webp",
+            "alt": "NFT Item 3"
+          },
+          "badge": {
+            "label": "SOLD OUT",
+            "state": "sold-out",
+            "text": "SOLD OUT"
+          },
+          "price": "$199",
+          "title": "NAME PRODUCT"
+        },
+        {
+          "link": "#",
+          "image": {
+            "src": "src/images/static/nft-card-token.webp",
+            "alt": "NFT Item 4"
+          },
+          "badge": {
+            "label": "NEW",
+            "state": "new",
+            "text": "NEW"
+          },
+          "price": "$199",
+          "title": "NAME PRODUCT"
+        },
+        {
+          "link": "#",
+          "image": {
+            "src": "src/images/static/nft-card-handheld.webp",
+            "alt": "NFT Item 5"
+          },
+          "badge": {
+            "label": "NEW",
+            "state": "new",
+            "text": "NEW"
+          },
+          "price": "$199",
+          "title": "NAME PRODUCT"
+        }
+      ]
+    }
+  }
+}
