@@ -9,10 +9,6 @@
         <a class="main-nav__link" href="{{ baseUrl }}/{{ item | lower | replace(' ', '-') }}.html">{{ item }}</a>
       </li>
       {% endfor %}
-      <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/index.html">Home</a></li>
-      <li class="main-nav__list-item"><a class="main-nav__link" href="{{ baseUrl }}/blog.html">Blog</a></li>
-      <li class="main-nav__list-item"><a class="main-nav__link" href="#">Catalog</a></li>
-      <li class="main-nav__list-item"><a class="main-nav__link" href="#">Collection</a></li>
     </ul>
     <div class="header__search">
       <form action="/search" method="GET">
