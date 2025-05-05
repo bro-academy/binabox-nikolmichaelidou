@@ -4,20 +4,20 @@
 
 {% block content %}
 <div class="page-layout">
-    <section class="banner">
+    <div class="banner">
         {% include "partials/banner.njk" %}
-    </section>
-    <section class="catalog">
-        {% include "partials/nft-cards.njk" %}
-    </section>
-    <section class="blog">
+     <div class="catalog">
+        {% include "partials/nft-cards.njk" %}  
+    <div class="blog">
         {% include "partials/blog-section-index.njk" %}
-    </section>
-    <section class="team">
+    
+    <div class="team">
         <h2>Meet Our Team</h2>
         {% for member in teamMembers %}
             {% include "partials/team-card.njk" %}
         {% endfor %}
-    </section> 
+    </div> 
 </div>
 {% endblock %}
+
+{# REMOVE <SECTION> #}
