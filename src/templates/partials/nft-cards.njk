@@ -1,4 +1,32 @@
-<img class="nft-card__image" src="src\images\static\nft-card-cat.webp" alt="NFT Item 2">
-    <span class="nft-card__badge nft-card__badge--new">NEW</span>
-        <p class="nft-card__price">$199</p>
-        <h3 class="nft-card__title">NAME PRODUCT</h3> 
+<div class="catalog">
+  <div class="catalog__header">
+    <h2>{{ catalog.header.title }}</h2>
+    <div class="catalog__controls">
+      <a href="{{ catalog.header.controls.viewAll.href }}" class="view-all-link">
+        {{ catalog.header.controls.viewAll.text }}
+      </a>
+      <div class="catalog__navigation">
+        <button class="prev-button">
+          {{ catalog.header.controls.navigation.prevButton.text }}
+        </button>
+        <button class="{{ catalog.header.controls.navigation.nextButton.class }}">
+          {{ catalog.header.controls.navigation.nextButton.text }}
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="catalog__grid">
+    {% for nft in catalog.grid.nftList %}
+      <div class="nft-card">
+        <a href="{{ nft.link }}">
+          <img src="{{ nft.image.src }}" alt="{{ nft.image.alt }}" />
+        </a>
+        <div class="{{ nft.badge.class }}">{{ nft.badge.text }}</div>
+        <div class="nft-card__details">
+          <h3>{{ nft.title }}</h3>
+          <p>{{ nft.price }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

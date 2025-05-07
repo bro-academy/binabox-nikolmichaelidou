@@ -1,0 +1,16 @@
+@use './variables.scss';
+@use './mixins.scss';
+
+// Limit global.scss to base tag styles only
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

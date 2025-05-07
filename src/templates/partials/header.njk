@@ -1,10 +1,22 @@
-<header>
-    <h1>Site Header</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
+<header class="header">
+  <a href="{{ baseUrl }}/index.html" class="logo">
+    <img src="{{ baseUrl }}/src/images/static/binabox-logo.webp" alt="Binabox Logo" class="logo__image" />
+  </a>
+  <nav class="main-nav">
+    <ul class="main-nav__list">
+      {% for item in ['Home', 'Blog', 'Catalog', 'Collection'] %}
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="{{ baseUrl }}/{{ item | lower | replace(' ', '-') }}.html">{{ item }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="header__search">
+      <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search" required aria-label="Search" class="search__input" />
+        <button type="submit" class="search__button">Search</button>
+      </form>
+    </div>
+    <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+    <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
+  </nav>
 </header>
