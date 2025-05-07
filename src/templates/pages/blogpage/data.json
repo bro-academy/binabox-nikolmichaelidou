@@ -54,10 +54,18 @@
       {
         "image": {
           "src": "src/images/static/nft-blog-photo-dragon-3.webp",
-        "alt": "Basilisk Image 3"
+          "alt": "Basilisk Image 3"
         },
         "caption": "Third view of the Basilisk creature"
       }
     ]
-  }
+  },
+  "socialLinks": [
+    { "href": "#", "src": "src/images/static/icons/twitter-icon.webp", "alt": "Twitter" },
+    { "href": "#", "src": "src/images/static/icons/facebook-icon.webp", "alt": "Facebook" },
+    { "href": "#", "src": "src/images/static/icons/telegram-icon.webp", "alt": "Telegram" },
+    { "href": "#", "src": "src/images/static/icons/youtube-icon.webp", "alt": "YouTube" },
+    { "href": "#", "src": "src/images/static/icons/tiktok-icon.webp", "alt": "TikTok" },
+    { "href": "#", "src": "src/images/static/icons/discord-icon.webp", "alt": "Discord" }
+  ]
 }

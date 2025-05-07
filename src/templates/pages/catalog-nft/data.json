@@ -9,11 +9,9 @@
         },
         "navigation": {
           "prevButton": {
-            "class": "button button--secondary",
             "text": "←"
           },
           "nextButton": {
-            "class": "button button--primary",
             "text": "→"
           }
         }
