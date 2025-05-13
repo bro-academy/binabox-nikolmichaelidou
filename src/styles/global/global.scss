@@ -1,9 +1,15 @@
-@use './variables.scss';
-@use './mixins.scss';
-
+@use './variables' as variables;
+@use './mixins' as mixins;
+// This file is for global styles that are not specific to any component.
+// It is imported in the main styles.scss file.
 // Limit global.scss to base tag styles only
 body {
   margin: 0;
+  font-size: variables.$font-size-body;
+  line-height: variables.$line-height-body;
+  color: variables.$color-text-primary;
+  font-family: variables.$font-family-headings;
+  background: variables.$color-background;
 }
 
 a {
@@ -13,4 +19,15 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.bakbak-one-regular {
+  font-weight: variables.$font-weight-regular;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: variables.$font-family-body;
+  font-weight: variables.$font-weight-medium;
+  font-style: normal;
 }

@@ -1,3 +1,5 @@
+@use '../global/variables' as variables;
+
 .banner {
   width: 866.5px;
   height: 362px;
@@ -11,11 +13,11 @@
 }
 
 .banner__highlight {
-  color: $color-primary;
+  color: variables.$color-primary;
 }
 
 .banner__text {
-  font-family: $font-primary;
+  font-family: variables.$font-family-body;
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 1.5;

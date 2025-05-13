@@ -16,27 +16,6 @@ $font-size-body: 16px;
 // Line Heights
 $line-height-body: 1.5;
 
-// Usage Example
-body {
-  font-size: $font-size-body;
-  line-height: $line-height-body;
-  color: $color-text-primary;
-  font-family: $font-family-headings;
-  background: $color-background;
-}
-
-/* Bakbak One for headings */
-.bakbak-one-regular {
-  font-weight: $font-weight-regular;
-  font-style: normal;
-}
-
-/* Poppins for body text */
-.poppins-medium {
-  font-family: $font-family-body;
-  font-weight: $font-weight-medium;
-  font-style: normal;
-}
 // Primary Colors
 $color-primary: #0265dc;
 $color-primary-light: rgba(2, 101, 220, 0.5);
@@ -48,24 +27,24 @@ $color-secondary-light: rgba(208, 215, 251, 0);
 $color-secondary-border: rgba(208, 215, 251, 0.17);
 
 // Background Colors
-$color-background: #0d0d15;
-$color-background-light: #1a1a2e;
-$color-background-dark: #1d1c28;
+$color-background: #0d0d15 !default;
+$color-background-light: #1a1a2e !default;
+$color-background-dark: #1d1c28 !default;
 
 // Text Colors
-$color-text-primary: #f5f8fb;
-$color-text-secondary: #f8f7ff;
-$color-text-highlight: #ffffff;
+$color-text-primary: #f5f8fb !default;
+$color-text-secondary: #f8f7ff !default;
+$color-text-highlight: #ffffff !default;
 
 // Badge Colors
-$color-badge-new: #0265dc;
-$color-badge-sold-out: #ea3829;
+$color-badge-new: #0265dc !default;
+$color-badge-sold-out: #ea3829 !default;
 
 // Link Colors
-$color-link: rgb(120, 187, 250);
-$color-link-hover: rgb(56, 146, 243);
-$color-link-focus-outline: rgb(56, 146, 243);
+$color-link: rgb(120, 187, 250) !default;
+$color-link-hover: rgb(56, 146, 243) !default;
+$color-link-focus-outline: rgb(56, 146, 243) !default;
 
 // Shadows
-$color-shadow-light: rgba(255, 255, 255, 0.4);
-$color-shadow-dark: rgba(0, 0, 0, 0.2);
+$color-shadow-light: rgba(255, 255, 255, 0.4) !default;
+$color-shadow-dark: rgba(0, 0, 0, 0.2) !default;
