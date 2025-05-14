@@ -1,0 +1,12 @@
+<img src="{{ blog.image }}" height="664" width="736" alt="{{ blog.alt }}"
+             class="blog__image" />
+    <span class="blog__tag">{{ blog.tag }}</span>
+    <div class="blog__meta">
+        <p class="blog__author">{{ blog.author }}</p>
+        <time datetime="{{ blog.date }}" class="blog__date">{{ blog.dateFormatted }}</time>
+    </div>
+    <h3 class="blog__post-title">{{ blog.title }}</h3>
+    <p class="blog__excerpt">
+        {{ blog.excerpt }}
+    </p>
+    <a href="{{ blog.link }}" target="_blank" class="blog__link">READ MORE</a>
