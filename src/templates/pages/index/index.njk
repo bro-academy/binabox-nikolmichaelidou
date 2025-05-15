@@ -3,21 +3,14 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-<div class="page-layout">
-    <div class="banner">
         {% include "partials/banner.njk" %}
-     <div class="catalog">
         {% include "partials/nft-cards.njk" %}  
-    <div class="blog">
         {% include "partials/blog-section-index.njk" %}
     
-    <div class="team">
         <h2>Meet Our Team</h2>
         {% for member in teamMembers %}
             {% include "partials/team-card.njk" %}
         {% endfor %}
-    </div> 
-</div>
 {% endblock %}
 
 {# REMOVE <SECTION> #}
