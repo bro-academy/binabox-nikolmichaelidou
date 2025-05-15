@@ -1,0 +1,50 @@
+// Colors
+// $color-text-primary: #F5F8FB; // Removed duplicate definition
+// $color-background: #0D0D15; // Removed duplicate definition
+
+// Font Families
+$font-family-headings: "Bakbak One", Arial, sans-serif;
+$font-family-body: "Poppins", Arial, sans-serif;
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+// Font Sizes
+$font-size-body: 16px;
+
+// Line Heights
+$line-height-body: 1.5;
+
+// Primary Colors
+$color-primary: #0265dc;
+$color-primary-light: rgba(2, 101, 220, 0.5);
+$color-primary-hover: #3892f3;
+
+// Secondary Colors
+$color-secondary: #333;
+$color-secondary-light: rgba(208, 215, 251, 0);
+$color-secondary-border: rgba(208, 215, 251, 0.17);
+
+// Background Colors
+$color-background: #0d0d15 !default;
+$color-background-light: #1a1a2e !default;
+$color-background-dark: #1d1c28 !default;
+
+// Text Colors
+$color-text-primary: #f5f8fb !default;
+$color-text-secondary: #f8f7ff !default;
+$color-text-highlight: #ffffff !default;
+
+// Badge Colors
+$color-badge-new: #0265dc !default;
+$color-badge-sold-out: #ea3829 !default;
+
+// Link Colors
+$color-link: rgb(120, 187, 250) !default;
+$color-link-hover: rgb(56, 146, 243) !default;
+$color-link-focus-outline: rgb(56, 146, 243) !default;
+
+// Shadows
+$color-shadow-light: rgba(255, 255, 255, 0.4) !default;
+$color-shadow-dark: rgba(0, 0, 0, 0.2) !default;

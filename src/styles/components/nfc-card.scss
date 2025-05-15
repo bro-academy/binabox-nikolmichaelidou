@@ -1,0 +1,44 @@
+.nft-card {
+    width: 300px;
+    background: #1D1C28;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    list-style: none;
+}
+
+.nft-card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nft-card__badge {
+    padding: 5px 10px;
+    background: #0265DC;
+    color: #F5F8FB;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    top: 10px;
+    left: 10px;
+}
+
+.nft-card__badge--sold-out {
+    background: #EA3829;
+}
+
+.nft-card__price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F5F8FB;
+    margin-bottom: 10px;
+}
+
+.nft-card__title {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
+    color: #F5F8FB;
+    margin-bottom: 10px;
+}

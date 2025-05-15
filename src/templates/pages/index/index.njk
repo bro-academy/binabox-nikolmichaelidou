@@ -3,7 +3,14 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-
-{% include "partials/nft-cards.njk" }
-
+        {% include "partials/banner.njk" %}
+        {% include "partials/nft-cards.njk" %}  
+        {% include "partials/blog-section-index.njk" %}
+    
+        <h2>Meet Our Team</h2>
+        {% for member in teamMembers %}
+            {% include "partials/team-card.njk" %}
+        {% endfor %}
 {% endblock %}
+
+{# REMOVE <SECTION> #}
