@@ -828,7 +828,7 @@ body {
     margin-right: 10px;
 }
 
-/* Link styles */
+/* Link styles
 a {
     color: rgb(120, 187, 250);
     text-decoration: none;
@@ -841,4 +841,9 @@ a:hover {
 a:focus {
     outline: 4px solid rgb(56, 146, 243);
     outline-width: 5px;
+} */
+
+/* Input Styles */
+.search{
+    
 }
