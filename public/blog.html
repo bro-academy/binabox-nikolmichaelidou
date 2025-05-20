@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Updated CSS paths to ensure correct loading -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@500&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+  <a href="/index.html" class="logo">
+    <img src="/src/images/static/binabox-logo.webp" alt="Binabox Logo" class="logo__image" />
+  </a>
+  <nav class="main-nav">
+    <ul class="main-nav__list">
+      
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="/home.html">Home</a>
+      </li>
+      
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="/blog.html">Blog</a>
+      </li>
+      
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="/catalog.html">Catalog</a>
+      </li>
+      
+      <li class="main-nav__list-item">
+        <a class="main-nav__link" href="/collection.html">Collection</a>
+      </li>
+      
+    </ul>
+    <div class="header__search">
+      <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search" required aria-label="Search" class="search__input" />
+        <button type="submit" class="search__button">Search</button>
+      </form>
+    </div>
+    <a class="button button--secondary header__btn" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+    <a class="button button--primary header__btn" href="#" target="_blank" rel="noopener noreferrer">Connect</a>
+  </nav>
+</header>
+    
+    
+  <main class="blog-layout">
+    <aside class="sidebar">
+      <nav class="categories">
+        <h3 class="categories__title">Categories</h3>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Our blog <span class="categories__count">(12)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Metaverse <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Gaming <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Art <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Robot <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Launchpad <span class="categories__count">(24)</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              Crypto <span class="categories__count">(410)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Add Sort by Dropdown -->
+      <div class="sidebar__sort">
+        <label for="sort" class="sidebar__label">Sort by:</label>
+        <select id="sort" name="sort" class="sidebar__select">
+          <option value="recent">Most Recent</option>
+          <option value="popular">Most Popular</option>
+          <option value="comments">Most Commented</option>
+        </select>
+      </div>
+
+      <!-- Add Search Bar -->
+      <form action="/blog" method="get" class="sidebar__search-form">
+        <input type="search" name="q" class="sidebar__search-input" placeholder="Search blog..." aria-label="Search blog" required />
+        <button type="submit" class="sidebar__search-button">Search</button>
+      </form>
+    </aside>
+
+    <section class="blog-main">
+      <article class="blog-post glass-card">
+        <div class="blog-post__header">
+          <img class="blog-post__image blog-post__image--primary" src="src/images/static/nft-blog-photo-dragon-1.webp" alt="The Basilisk" />
+          <p class="blog-post__caption blog-post__caption--overlay glass-text">Photo caption.</p>
+          <h1 class="blog-post__title blog-post__title--main">The Basilisks NFT</h1>
+          <span class="blog-post__category glass-badge">Gaming</span>
+          <div class="blog-post__meta blog-post__meta--header glass-panel">
+            <p class="blog-post__author blog-post__author--info">
+              <strong class="blog-post__author-name">Tony Nguyen</strong>
+              <time class="blog-post__date blog-post__date--published" datetime="2022-06-20">20 Jun 2022</time>
+            </p>
+          </div>
+        </div>
+
+        <div class="blog-post__content blog-post__content--main glass-panel">
+          <ul class="blog-post__description blog-post__description--list">
+            
+            <li class="blog-post__description-item">
+              <p class="blog-post__paragraph">
+                The Basilisks that players collect are represented with NFTs on Ethereum's blockchain with real-world value. Players use the Basilisks they have gathered to battle other players to win ether (ETH).
+                
+                  
+                    <a class="blog-post__link" href="#">players</a>
+                  
+                    <a class="blog-post__link" href="#">Basilisks they</a>
+                  
+                
+              </p>
+            </li>
+            
+            <li class="blog-post__description-item">
+              <p class="blog-post__paragraph">
+                In Balthazar Dragons, players are immersed in a 3D open world to explore and capture dragon-like beasts called Basilisks. Balthazar Dragons is an upcoming fantasy role-playing game developed on the Ethereum blockchain by a decentralized autonomous organization (DAO) called the Balthazar DAO.
+                
+              </p>
+            </li>
+            
+          </ul>
+        </div>
+
+        <blockquote class="blog-post__quote glass-panel">
+          <p>The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers</p>
+          <span class="blog-post__rating">⭐ 8.5/10 Markout Corporation</span>
+        </blockquote>
+
+        <div class="blog-post__gallery glass-grid">
+          
+          <figure>
+            <img src="src/images/static/blog-photo-dragon-2.webp" alt="Basilisk Image 2" />
+            <figcaption>Second view of the Basilisk creature</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="src/images/static/nft-blog-photo-dragon-3.webp" alt="Basilisk Image 3" />
+            <figcaption>Third view of the Basilisk creature</figcaption>
+          </figure>
+          
+        </div>
+
+        <div class="blog-post__footer glass-panel">
+          <div class="blog-post__tags">
+            <span>Tags: </span>
+            
+          </div>
+
+          <div class="blog-post__share glass-panel">
+            <p></p>
+            <div class="blog-post__social-links">
+              
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+    
+    <footer>
+      <div>
+        <a href="index.html">
+          <img src="src/images/static/binabox-logo.webp" alt="Binabox Logo" />
+        </a>
+        <p>We are the best way to check the rarity of NFT collection.</p>
+      </div>
+
+      <nav>
+        <div>
+          <h2>Subscribe</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Company</h2>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Whitepaper</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <p>BINABOX 2022 - ALL rights reserved</p>
+        <div>
+          
+            <a href="#"><img src="src/images/static/icons/twitter-icon.webp" alt="Twitter" /></a>
+          
+            <a href="#"><img src="src/images/static/icons/facebook-icon.webp" alt="Facebook" /></a>
+          
+            <a href="#"><img src="src/images/static/icons/telegram-icon.webp" alt="Telegram" /></a>
+          
+            <a href="#"><img src="src/images/static/icons/youtube-icon.webp" alt="YouTube" /></a>
+          
+            <a href="#"><img src="src/images/static/icons/tiktok-icon.webp" alt="TikTok" /></a>
+          
+            <a href="#"><img src="src/images/static/icons/discord-icon.webp" alt="Discord" /></a>
+          
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
